@@ -1,0 +1,27 @@
+{
+	"HVPVersion": 1,
+	"ViewPortWidth": 700,
+	"ViewPortHeight": 394,
+	"Buttons": [
+		{
+			"ButtonName": "Learn more target",
+			"ButtonTarget": "TestTarget.html?context=b1",
+			"ButtonLeft": 1,
+			"ButtonTop": 10,
+			"ButtonWidth": 28,
+			"ButtonHeight": 23,
+			"ButtonHoverColor": "",
+			"ButtonBackgroundColor": "",
+			"ButtonImageName": ""
+		}
+	],
+	"Timelines": [
+		{
+			"TimelineName": "Learn more",
+			"TimelineButtonName": "Learn more target",
+			"TimelineEnableTime": 53,
+			"TimelineDisableTime": "end"
+		}
+	],
+	"VideoName": "videos/ForcedPerspective-2019051303.mp4"
+}
