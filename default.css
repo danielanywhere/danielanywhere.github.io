@@ -1,6 +1,9 @@
-body, th, td {
-	font-family: Calibri, Verdana, Helvetica, sans-serif;
-	font-size: 12pt;
-	background-color: aliceblue;
+body, h1, h2, h3, h4, h5, td, th
+{
+	font-family: "Raleway", sans-serif
 }
 
+.w3-hoverable a
+{
+	text-decoration: none;
+}
