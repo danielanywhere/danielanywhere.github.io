@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\OneDrive\Develop\Shared\Geometry\Scripts\GeometryDocumentation.shfbproj" started="01/14/2025 10:30:19">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\OneDrive\Develop\Shared\Geometry\Scripts\GeometryDocumentation.shfbproj" started="01/16/2025 09:54:36">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -28,30 +28,30 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-4d1ec2ae-44da-4aa6-8269-7c8764ed834c.proj]
-Build started 01/14/2025 10:30:20.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-6c1b8dbb-a234-4945-9c92-962c2a79cc3f.proj]
+Build started 01/16/2025 09:54:42.
 
-Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-4d1ec2ae-44da-4aa6-8269-7c8764ed834c.proj&quot; on node 1 (default targets).
+Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-6c1b8dbb-a234-4945-9c92-962c2a79cc3f.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
   Microsoft.Build (v17.9.8+b34f75857bacf5ecd5531f7ff763a5739d3ae435)
-  c Microsoft Corporation. All rights reserved.
+  &#194;&#169; Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 104 dependency assemblies.
-  Wrote information on 1 namespaces, 25 types, and 238 members
+  Wrote information on 1 namespaces, 26 types, and 246 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-4d1ec2ae-44da-4aa6-8269-7c8764ed834c.proj&quot; (default targets).
-    Last step completed in 00:00:00.9017
+Done Building Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-6c1b8dbb-a234-4945-9c92-962c2a79cc3f.proj&quot; (default targets).
+    Last step completed in 00:00:01.1565
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
@@ -59,7 +59,7 @@ Applying document model to reflection output...
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00.1002
+    Last step completed in 00:00:00.1003
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
@@ -67,7 +67,7 @@ Generating API topic manifest...
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0469
+    Last step completed in 00:00:00.0312
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -81,22 +81,22 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.0534
+    Last step completed in 00:00:00.0690
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.1316
+    Last step completed in 00:00:00.2474
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0221
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0312
+    Last step completed in 00:00:00.0313
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -104,12 +104,12 @@ Building help topics...
 Loading TOC info and adding unique IDs to parent nodes
 </plugIn>Loading configuration...
 Processing topics...
-Processed 309 topic(s)
+Processed 320 topic(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 5 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:03.8857
+</plugIn>    Last step completed in 00:00:04.7424
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -145,26 +145,26 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.0707
+    Last step completed in 00:00:00.4113
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.5343
+    Last step completed in 00:00:00.3734
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 447 files for the website content
-    Last step completed in 00:00:00.4500
+Copied 463 files for the website content
+    Last step completed in 00:00:00.4685
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0781
+    Last step completed in 00:00:00.1003
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 01/14/2025 10:30:27.  Total time: 00:00:07.3686
+Build completed successfully at 01/16/2025 09:54:49.  Total time: 00:00:13.3045
 
 </buildStep>
 </shfbBuild>
