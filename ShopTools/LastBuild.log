@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\OneDrive\Develop\Shared\ShopTools\Scripts\ShopToolsDocumentation.shfbproj" started="02/19/2025 19:17:03">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\OneDrive\Develop\Shared\ShopTools\Scripts\ShopToolsDocumentation.shfbproj" started="02/25/2025 12:24:35">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -36,14 +36,14 @@ Generating shared content files (en-US, English (United States))...
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0312
+    Last step completed in 00:00:00.0313
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-bcb7c25a-1223-43f4-8753-6267f55e693b.proj]
-Build started 02/19/2025 19:17:04.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-42311e8f-5b4f-44f5-a453-aaea32aef98d.proj]
+Build started 02/25/2025 12:24:36.
 
-Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-bcb7c25a-1223-43f4-8753-6267f55e693b.proj&quot; on node 1 (default targets).
+Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-42311e8f-5b4f-44f5-a453-aaea32aef98d.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -52,24 +52,24 @@ GenerateRefInfo:
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 106 dependency assemblies.
   Using automatic redirect &#39;System.Collections, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Windows.Forms (System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089) required by ShopTools [C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-bcb7c25a-1223-43f4-8753-6267f55e693b.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Windows.Forms (System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089) required by ShopTools [C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-42311e8f-5b4f-44f5-a453-aaea32aef98d.proj]
   Using automatic redirect &#39;System.ComponentModel.TypeConverter, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ComponentModel.TypeConverter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
   Using automatic redirect &#39;System.ObjectModel, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
   Using automatic redirect &#39;System.ComponentModel.Primitives, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ComponentModel.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
   Using automatic redirect &#39;System.ComponentModel, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ComponentModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
   Using automatic redirect &#39;System.Data.Common, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Common (System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51) required by ShopTools [C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-bcb7c25a-1223-43f4-8753-6267f55e693b.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Common (System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51) required by ShopTools [C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-42311e8f-5b4f-44f5-a453-aaea32aef98d.proj]
   Using automatic redirect &#39;System.Drawing.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
   Using automatic redirect &#39;System.Text.RegularExpressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Text.RegularExpressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
-  Wrote information on 1 namespaces, 56 types, and 980 members
+  Wrote information on 1 namespaces, 60 types, and 1025 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-bcb7c25a-1223-43f4-8753-6267f55e693b.proj&quot; (default targets).
-    Last step completed in 00:00:03.2261
+Done Building Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-42311e8f-5b4f-44f5-a453-aaea32aef98d.proj&quot; (default targets).
+    Last step completed in 00:00:03.8125
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.2319
+    Last step completed in 00:00:00.2969
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
@@ -82,6 +82,7 @@ Adding topic filenames to API members...
     Unique name M_ShopTools_ShopToolsUtil_FillRectangle_1 generated for M:ShopTools.ShopToolsUtil.FillRectangle(Geometry.FPoint,System.Single,System.Single,System.Drawing.Graphics,System.Drawing.Rectangle,System.Single,System.Boolean)
     Unique name M_ShopTools_ShopToolsUtil_GetValue_1 generated for M:ShopTools.ShopToolsUtil.GetValue(System.Text.RegularExpressions.Match,System.String)
     Unique name M_ShopTools_ShopToolsUtil_GetValue_2 generated for M:ShopTools.ShopToolsUtil.GetValue(System.Type,System.Object,System.String)
+    Unique name M_ShopTools_ShopToolsUtil_IsPointAtCorner_1 generated for M:ShopTools.ShopToolsUtil.IsPointAtCorner(Geometry.FLine,Geometry.FPoint)
     Unique name M_ShopTools_ShopToolsUtil_ToBool_1 generated for M:ShopTools.ShopToolsUtil.ToBool(System.String,System.Boolean)
     Unique name M_ShopTools_ShopToolsUtil_ToFloat_1 generated for M:ShopTools.ShopToolsUtil.ToFloat(System.String)
     Unique name M_ShopTools_ShopToolsUtil_ToInt_1 generated for M:ShopTools.ShopToolsUtil.ToInt(System.String)
@@ -90,20 +91,20 @@ Adding topic filenames to API members...
     Unique name M_ShopTools_ShopToolsUtil_TranslateOffset_2 generated for M:ShopTools.ShopToolsUtil.TranslateOffset(Geometry.FArea,System.Single,System.Single,ShopTools.OffsetLeftRightEnum,System.Single)
     Unique name M_ShopTools_ShopToolsUtil_TranslateOffset_3 generated for M:ShopTools.ShopToolsUtil.TranslateOffset(Geometry.FArea,System.Single,System.Single,ShopTools.OffsetTopBottomEnum,System.Single)
     Unique name M_ShopTools_TrackLayerCollection__ctor_1 generated for M:ShopTools.TrackLayerCollection.#ctor(ShopTools.CutProfileCollection)
-    Last step completed in 00:00:00.3128
+    Last step completed in 00:00:00.3125
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.2349
+    Last step completed in 00:00:00.3438
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0506
+    Last step completed in 00:00:00.0781
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -112,22 +113,22 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.1010
+    Last step completed in 00:00:00.0938
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.1191
+    Last step completed in 00:00:00.1562
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0303
+    Last step completed in 00:00:00.0313
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -157,18 +158,19 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:ShopTools.frmSettings.b
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.GCode.PlotToPositionXYAbs(Geometry.FPoint,System.Single)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.GCode.TransitToPositionXYAbs(Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:ShopTools.MeasurementTokenCollection.mExpressionContext] Unknown reference link target &#39;T:Flee.PublicTypes.ExpressionContext&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXY(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXY(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXY(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXY(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXY(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXY(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint,Geometry.WindingOrientationEnum,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXY(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint,Geometry.WindingOrientationEnum,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXY(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint,Geometry.WindingOrientationEnum,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXY(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint,Geometry.WindingOrientationEnum,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.WindingOrientationEnum&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXY(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint,Geometry.WindingOrientationEnum,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXY(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,Geometry.FPoint,Geometry.WindingOrientationEnum,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXYAngle(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,System.Single,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXYAngle(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,System.Single,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXYAngle(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,System.Single,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterOffsetXYAngle(ShopTools.PatternOperationItem,Geometry.FPoint,Geometry.FPoint,System.Single,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterRadiusStartEndAngle(ShopTools.PatternOperationItem,Geometry.FPoint,System.Single,System.Single,System.Single,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterRadiusStartEndAngle(ShopTools.PatternOperationItem,Geometry.FPoint,System.Single,System.Single,System.Single,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterRadiusStartEndAngle(ShopTools.PatternOperationItem,Geometry.FPoint,System.Single,System.Single,System.Single,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterRadiusStartSweepAngle(ShopTools.PatternOperationItem,Geometry.FPoint,System.Single,System.Single,System.Single,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterRadiusStartSweepAngle(ShopTools.PatternOperationItem,Geometry.FPoint,System.Single,System.Single,System.Single,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddArcCenterRadiusStartSweepAngle(ShopTools.PatternOperationItem,Geometry.FPoint,System.Single,System.Single,System.Single,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddEllipseCenterRadius(ShopTools.PatternOperationItem,Geometry.FPoint,System.Single,System.Single,Geometry.FPoint,System.Boolean)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddEllipseCenterRadius(ShopTools.PatternOperationItem,Geometry.FPoint,System.Single,System.Single,Geometry.FPoint,System.Boolean)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.OperationLayoutCollection.AddEllipseCenterRadius(ShopTools.PatternOperationItem,Geometry.FPoint,System.Single,System.Single,Geometry.FPoint,System.Boolean)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
@@ -237,9 +239,21 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetClosestPoint(Geometry.FLine,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetClosestPoint(Geometry.FLine,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetDisplayCoordinate(Geometry.FPoint,System.Drawing.Rectangle,System.Single)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetIntersectingLine(System.Collections.Generic.List{Geometry.FLine},Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FLine&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetIntersectingLine(System.Collections.Generic.List{Geometry.FLine},Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetIntersectingLine(System.Collections.Generic.List{Geometry.FLine},Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FLine&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetIntersectingLines(System.Collections.Generic.List{Geometry.FLine},Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FLine&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetIntersectingLines(System.Collections.Generic.List{Geometry.FLine},Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetIntersectingLines(System.Collections.Generic.List{Geometry.FLine},Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FLine&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetLines(Geometry.FArea)] Unknown reference link target &#39;T:Geometry.FArea&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetLines(Geometry.FArea)] Unknown reference link target &#39;T:Geometry.FLine&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetRawEndOffset(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetRawEndOffset(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetWorkspaceArea] Unknown reference link target &#39;T:Geometry.FArea&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.IsPointAtCorner(Geometry.FArea,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FArea&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.IsPointAtCorner(Geometry.FArea,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.IsPointAtCorner(Geometry.FLine,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FLine&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.IsPointAtCorner(Geometry.FLine,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:ShopTools.ShopToolsUtil.mSessionConverter] Unknown reference link target &#39;T:ConversionCalc.Converter&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:ShopTools.ShopToolsUtil.SessionConverter] Unknown reference link target &#39;T:ConversionCalc.Converter&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.TransformFromAbsolute(Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
@@ -250,20 +264,29 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.TranslateOffset(Geometry.FArea,System.Single,ShopTools.OffsetTopBottomEnum,System.Single)] Unknown reference link target &#39;T:Geometry.FArea&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.TranslateOffset(Geometry.FArea,System.Single,System.Single,ShopTools.OffsetLeftRightEnum,System.Single)] Unknown reference link target &#39;T:Geometry.FArea&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.TranslateOffset(Geometry.FArea,System.Single,System.Single,ShopTools.OffsetTopBottomEnum,System.Single)] Unknown reference link target &#39;T:Geometry.FArea&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [M:ShopTools.TrackLayerCollection.GetOperationEndLocation(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ShopTools.TrackLayerCollection.GetOperationEndLocation(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ShopTools.TrackLayerCollection.GetOperationEndLocation(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Missing &lt;param name=&quot;operationItem&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ShopTools.TrackLayerCollection.GetOperationEndLocation(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Missing &lt;param name=&quot;workpiece&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ShopTools.TrackLayerCollection.GetOperationEndLocation(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Missing &lt;param name=&quot;startOffset&quot;/&gt; documentation
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.GetOperationEndLocation(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.GetOperationEndLocation(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [M:ShopTools.TrackLayerCollection.GetOperationStartLocation(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ShopTools.TrackLayerCollection.GetOperationStartLocation(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ShopTools.TrackLayerCollection.GetOperationStartLocation(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Missing &lt;param name=&quot;operationItem&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ShopTools.TrackLayerCollection.GetOperationStartLocation(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Missing &lt;param name=&quot;workpiece&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ShopTools.TrackLayerCollection.GetOperationStartLocation(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Missing &lt;param name=&quot;location&quot;/&gt; documentation
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.GetOperationStartLocation(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.GetOperationStartLocation(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.AdjustKerf] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.DrawArc(ShopTools.OperationLayoutItem,ShopTools.TrackLayerItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.DrawArc(ShopTools.OperationLayoutItem,ShopTools.TrackLayerItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.DrawEllipse(ShopTools.OperationLayoutItem,ShopTools.TrackLayerItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.DrawEllipse(ShopTools.OperationLayoutItem,ShopTools.TrackLayerItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.DrawLine(ShopTools.OperationLayoutItem,ShopTools.TrackLayerItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.DrawLine(ShopTools.OperationLayoutItem,ShopTools.TrackLayerItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.DrawRectangle(ShopTools.OperationLayoutItem,ShopTools.TrackLayerItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.DrawRectangle(ShopTools.OperationLayoutItem,ShopTools.TrackLayerItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.DrillHoles(ShopTools.OperationLayoutCollection,ShopTools.TrackToolCollection,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.DrillHoles(ShopTools.OperationLayoutCollection,ShopTools.TrackToolCollection,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.FillEllipse(ShopTools.OperationLayoutItem,ShopTools.TrackLayerItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.FillEllipse(ShopTools.OperationLayoutItem,ShopTools.TrackLayerItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.FillRectangle(ShopTools.OperationLayoutItem,ShopTools.TrackLayerItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.FillRectangle(ShopTools.OperationLayoutItem,ShopTools.TrackLayerItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.GetLeftPoint(Geometry.FPoint[])] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.GetLeftPoint(Geometry.FPoint[])] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.GetRightPoint(Geometry.FPoint[])] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.GetRightPoint(Geometry.FPoint[])] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.PlotLinesAndShapes(ShopTools.OperationLayoutCollection,ShopTools.TrackToolCollection,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.PlotLinesAndShapes(ShopTools.OperationLayoutCollection,ShopTools.TrackToolCollection,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.ResolveToolPath(Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.TrackLayerCollection.ResolveToolPath(Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:ShopTools.TrackSegmentItem.EndOffset] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:ShopTools.TrackSegmentItem.mEndOffset] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:ShopTools.TrackSegmentItem.mStartOffset] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
@@ -277,14 +300,14 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:ShopTools.WorkpieceInfo
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.WorkpieceInfoItem.mWorkspaceArea_ValueChanged(System.Object,Geometry.FloatEventArgs)] Unknown reference link target &#39;T:Geometry.FloatEventArgs&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:ShopTools.WorkpieceInfoItem.RouterLocation] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:ShopTools.WorkpieceInfoItem.WorkspaceArea] Unknown reference link target &#39;T:Geometry.FArea&#39;.
-Processed 1036 topic(s)
-142 warning(s)
+Processed 1097 topic(s)
+164 warning(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 9 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
-SaveComponent: Waiting for the document writer task to finish (96 Website API file(s) remaining)...
+SaveComponent: Waiting for the document writer task to finish (43 Website API file(s) remaining)...
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:25.0272
+</plugIn>    Last step completed in 00:00:17.6719
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -320,28 +343,28 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.0706
+    Last step completed in 00:00:00.0781
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:01.2508
+    Last step completed in 00:00:01.2031
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 500 files
 Copied 1000 files
-Copied 1235 files for the website content
-    Last step completed in 00:00:01.5898
+Copied 1307 files for the website content
+    Last step completed in 00:00:01.5938
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.2539
+    Last step completed in 00:00:00.2500
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 02/19/2025 19:17:36.  Total time: 00:00:33.3168
+Build completed successfully at 02/25/2025 12:25:02.  Total time: 00:00:27.1719
 
 </buildStep>
 </shfbBuild>
