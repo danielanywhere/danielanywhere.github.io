@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\OneDrive\Develop\Shared\ShopTools\Scripts\ShopToolsDocumentation.shfbproj" started="02/27/2025 08:52:11">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\OneDrive\Develop\Shared\ShopTools\Scripts\ShopToolsDocumentation.shfbproj" started="03/06/2025 16:00:06">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -32,18 +32,18 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0132
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0373
+    Last step completed in 00:00:00.0313
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-833a7583-a2db-4a9b-a2ec-f6764247133f.proj]
-Build started 02/27/2025 08:52:13.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-8e362751-1f58-44f5-95ce-be4ec2cbac0c.proj]
+Build started 03/06/2025 16:00:12.
 
-Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-833a7583-a2db-4a9b-a2ec-f6764247133f.proj&quot; on node 1 (default targets).
+Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-8e362751-1f58-44f5-95ce-be4ec2cbac0c.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -52,24 +52,24 @@ GenerateRefInfo:
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 106 dependency assemblies.
   Using automatic redirect &#39;System.Collections, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Windows.Forms (System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089) required by ShopTools [C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-833a7583-a2db-4a9b-a2ec-f6764247133f.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Windows.Forms (System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089) required by ShopTools [C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-8e362751-1f58-44f5-95ce-be4ec2cbac0c.proj]
   Using automatic redirect &#39;System.ComponentModel.TypeConverter, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ComponentModel.TypeConverter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
   Using automatic redirect &#39;System.ObjectModel, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
   Using automatic redirect &#39;System.ComponentModel.Primitives, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ComponentModel.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
   Using automatic redirect &#39;System.ComponentModel, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ComponentModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
   Using automatic redirect &#39;System.Data.Common, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Common (System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51) required by ShopTools [C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-833a7583-a2db-4a9b-a2ec-f6764247133f.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Common (System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51) required by ShopTools [C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-8e362751-1f58-44f5-95ce-be4ec2cbac0c.proj]
   Using automatic redirect &#39;System.Drawing.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
   Using automatic redirect &#39;System.Text.RegularExpressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Text.RegularExpressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
-  Wrote information on 1 namespaces, 61 types, and 1039 members
+  Wrote information on 1 namespaces, 66 types, and 1186 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-833a7583-a2db-4a9b-a2ec-f6764247133f.proj&quot; (default targets).
-    Last step completed in 00:00:04.0786
+Done Building Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\GenerateRefInfo-8e362751-1f58-44f5-95ce-be4ec2cbac0c.proj&quot; (default targets).
+    Last step completed in 00:00:03.8576
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.4079
+    Last step completed in 00:00:00.3089
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
@@ -80,9 +80,9 @@ Adding topic filenames to API members...
     Unique name M_ShopTools_ShopToolsUtil_CalculateLayout_1 generated for M:ShopTools.ShopToolsUtil.CalculateLayout(ShopTools.CutProfileItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)
     Unique name M_ShopTools_ShopToolsUtil_DrawRectangle_1 generated for M:ShopTools.ShopToolsUtil.DrawRectangle(Geometry.FPoint,System.Single,System.Single,System.Drawing.Graphics,System.Drawing.Pen,System.Drawing.Rectangle,System.Single)
     Unique name M_ShopTools_ShopToolsUtil_FillRectangle_1 generated for M:ShopTools.ShopToolsUtil.FillRectangle(Geometry.FPoint,System.Single,System.Single,System.Drawing.Graphics,System.Drawing.Rectangle,System.Single,System.Boolean)
+    Unique name M_ShopTools_ShopToolsUtil_GetDataUri_1 generated for M:ShopTools.ShopToolsUtil.GetDataUri(System.String,System.Byte[])
     Unique name M_ShopTools_ShopToolsUtil_GetValue_1 generated for M:ShopTools.ShopToolsUtil.GetValue(System.Text.RegularExpressions.Match,System.String)
     Unique name M_ShopTools_ShopToolsUtil_GetValue_2 generated for M:ShopTools.ShopToolsUtil.GetValue(System.Type,System.Object,System.String)
-    Unique name M_ShopTools_ShopToolsUtil_IsPointAtCorner_1 generated for M:ShopTools.ShopToolsUtil.IsPointAtCorner(Geometry.FLine,Geometry.FPoint)
     Unique name M_ShopTools_ShopToolsUtil_ToBool_1 generated for M:ShopTools.ShopToolsUtil.ToBool(System.String,System.Boolean)
     Unique name M_ShopTools_ShopToolsUtil_ToFloat_1 generated for M:ShopTools.ShopToolsUtil.ToFloat(System.String)
     Unique name M_ShopTools_ShopToolsUtil_ToInt_1 generated for M:ShopTools.ShopToolsUtil.ToInt(System.String)
@@ -91,20 +91,20 @@ Adding topic filenames to API members...
     Unique name M_ShopTools_ShopToolsUtil_TranslateOffset_2 generated for M:ShopTools.ShopToolsUtil.TranslateOffset(Geometry.FArea,System.Single,System.Single,ShopTools.OffsetLeftRightEnum,System.Single)
     Unique name M_ShopTools_ShopToolsUtil_TranslateOffset_3 generated for M:ShopTools.ShopToolsUtil.TranslateOffset(Geometry.FArea,System.Single,System.Single,ShopTools.OffsetTopBottomEnum,System.Single)
     Unique name M_ShopTools_TrackLayerCollection__ctor_1 generated for M:ShopTools.TrackLayerCollection.#ctor(ShopTools.CutProfileCollection)
-    Last step completed in 00:00:00.3899
+    Last step completed in 00:00:00.3463
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.3393
+    Last step completed in 00:00:00.3159
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0971
+    Last step completed in 00:00:00.0891
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0021
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -113,22 +113,22 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.1055
+    Last step completed in 00:00:00.0908
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.1551
+    Last step completed in 00:00:00.2715
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0161
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0279
+    Last step completed in 00:00:00.0313
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -149,9 +149,73 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ShopTools.frmCut
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.frmCutEdit.CreateFromTemplate(ShopTools.PatternTemplateItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:ShopTools.frmCutEdit.statMessage] Unknown reference link target &#39;statusCut&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:ShopTools.frmCutEdit.statValue] Unknown reference link target &#39;statusCut&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditOperation.btnCancel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditOperation.btnOK] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditOperation.cmboAction] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditOperation.dgVariables] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditOperation.lblAction] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditOperation.lblHiddenVariables] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditOperation.lblOperationName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditOperation.lblOperationNameHint] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditOperation.lblStatValue] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditOperation.lblVariables] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditOperation.lstHiddenVariables] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditOperation.mOperation] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditOperation.txtOperationName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.btnCancel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.btnCreate] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.btnDelete] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.btnIconFilename] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.btnMoveDown] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.btnMoveUp] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.btnOK] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.btnOperationAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.btnOperationDelete] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.btnOperationDown] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.btnOperationEdit] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.btnOperationUp] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.btnTemplateID] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.ilTemplateControls] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.ilTemplateIcons] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.ilTemplates] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.lblDisplayFormat] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.lblIconFilename] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.lblOperations] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.lblSharedVariables] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.lblTemplateID] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.lblTemplateName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.lstSharedVariables] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.lvOperations] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.lvTemplates] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.menuEditTemplates] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.mnuEdit] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.mnuEditRestoreFactoryTemplates] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.mnuFile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.mnuFileExportSelectedPatterns] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.mnuFileImportPatterns] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.mnuView] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.mnuViewTab] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.mnuViewTabDisplay] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.mnuViewTabGeneral] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.mnuViewTabRemarks] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.pnlControls] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.pnlTemplates] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.splitterTemplates] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.statMessage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.statusEditTemplates] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.tctlEditTemplates] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.tpgDisplay] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.tpgGeneral] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.tpgRemarks] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.txtDisplayFormat] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.txtIconFilename] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.txtRemarks] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.txtTemplateID] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmEditTemplates.txtTemplateName] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ShopTools.frmMain] Unknown reference link target &#39;ilPatterns&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ShopTools.frmMain] Unknown reference link target &#39;ilPatterns&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:ShopTools.frmMain.ilPatternsSmall] Unknown reference link target &#39;ilPatterns&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [F:ShopTools.frmMain.mnuEditTemplates] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ShopTools.frmSettings] Unknown reference link target &#39;frmEditTools&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ShopTools.frmSettings] Unknown reference link target &#39;frmEditTools&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:ShopTools.frmSettings.btnEditTools] Unknown reference link target &#39;frmEditTools&#39;.
@@ -213,8 +277,6 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.PatternOperat
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.CalculateLayout] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.CalculateLayout(ShopTools.CutProfileItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.CalculateLayout(ShopTools.CutProfileItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.Dot(Geometry.FPoint,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.Dot(Geometry.FPoint,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.DrawEllipseCenterDiameter(Geometry.FPoint,System.Single,System.Single,System.Drawing.Graphics,System.Drawing.Pen,System.Drawing.Rectangle,System.Single)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.DrawEllipseCenterRadius(Geometry.FPoint,System.Single,System.Single,System.Drawing.Graphics,System.Drawing.Pen,System.Drawing.Rectangle,System.Single)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.DrawEllipseDiameter(Geometry.FPoint,System.Single,System.Single,System.Drawing.Graphics,System.Drawing.Pen,System.Drawing.Rectangle,System.Single)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
@@ -235,25 +297,10 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.FillRectangle(Geometry.FPoint,Geometry.FPoint,System.Drawing.Graphics,System.Drawing.Rectangle,System.Single,System.Boolean)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.FillRectangle(Geometry.FPoint,Geometry.FPoint,System.Drawing.Graphics,System.Drawing.Rectangle,System.Single,System.Boolean)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.FillRectangle(Geometry.FPoint,System.Single,System.Single,System.Drawing.Graphics,System.Drawing.Rectangle,System.Single,System.Boolean)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetClosestPoint(Geometry.FLine,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FLine&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetClosestPoint(Geometry.FLine,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetClosestPoint(Geometry.FLine,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetDisplayCoordinate(Geometry.FPoint,System.Drawing.Rectangle,System.Single)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetIntersectingLine(System.Collections.Generic.List{Geometry.FLine},Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FLine&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetIntersectingLine(System.Collections.Generic.List{Geometry.FLine},Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetIntersectingLine(System.Collections.Generic.List{Geometry.FLine},Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FLine&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetIntersectingLines(System.Collections.Generic.List{Geometry.FLine},Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FLine&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetIntersectingLines(System.Collections.Generic.List{Geometry.FLine},Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetIntersectingLines(System.Collections.Generic.List{Geometry.FLine},Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FLine&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetLines(Geometry.FArea)] Unknown reference link target &#39;T:Geometry.FArea&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetLines(Geometry.FArea)] Unknown reference link target &#39;T:Geometry.FLine&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetRawEndOffset(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetRawEndOffset(ShopTools.PatternOperationItem,ShopTools.WorkpieceInfoItem,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.GetWorkspaceArea] Unknown reference link target &#39;T:Geometry.FArea&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.IsPointAtCorner(Geometry.FArea,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FArea&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.IsPointAtCorner(Geometry.FArea,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.IsPointAtCorner(Geometry.FLine,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FLine&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.IsPointAtCorner(Geometry.FLine,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:ShopTools.ShopToolsUtil.mSessionConverter] Unknown reference link target &#39;T:ConversionCalc.Converter&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:ShopTools.ShopToolsUtil.SessionConverter] Unknown reference link target &#39;T:ConversionCalc.Converter&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.ShopToolsUtil.TransformFromAbsolute(Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
@@ -300,14 +347,14 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:ShopTools.WorkpieceInfo
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ShopTools.WorkpieceInfoItem.mWorkspaceArea_ValueChanged(System.Object,Geometry.FloatEventArgs)] Unknown reference link target &#39;T:Geometry.FloatEventArgs&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:ShopTools.WorkpieceInfoItem.RouterLocation] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:ShopTools.WorkpieceInfoItem.WorkspaceArea] Unknown reference link target &#39;T:Geometry.FArea&#39;.
-Processed 1115 topic(s)
-164 warning(s)
-CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 9 of 15.
+Processed 1279 topic(s)
+211 warning(s)
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 10 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
-SaveComponent: Waiting for the document writer task to finish (99 Website API file(s) remaining)...
+SaveComponent: Waiting for the document writer task to finish (14 Website API file(s) remaining)...
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:24.5342
+</plugIn>    Last step completed in 00:00:15.7262
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -343,28 +390,29 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\ShopTools\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.0726
+    Last step completed in 00:00:00.4947
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:01.4324
+    Last step completed in 00:00:01.2003
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 500 files
 Copied 1000 files
-Copied 1329 files for the website content
-    Last step completed in 00:00:01.7553
+Copied 1500 files
+Copied 1510 files for the website content
+    Last step completed in 00:00:01.9208
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.2886
+    Last step completed in 00:00:00.3477
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 02/27/2025 08:52:47.  Total time: 00:00:35.0415
+Build completed successfully at 03/06/2025 16:00:37.  Total time: 00:00:30.7228
 
 </buildStep>
 </shfbBuild>
