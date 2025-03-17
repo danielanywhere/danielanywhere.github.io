@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\OneDrive\Develop\Shared\Geometry\Scripts\GeometryDocumentation.shfbproj" started="03/07/2025 14:39:33">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\OneDrive\Develop\Shared\Geometry\Scripts\GeometryDocumentation.shfbproj" started="03/17/2025 10:24:09">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -28,18 +28,18 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0120
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0170
+    Last step completed in 00:00:00.0200
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-815c615c-d1a2-487c-b997-6d8b04d3896a.proj]
-Build started 03/07/2025 14:39:38.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-cd23170d-8a9d-4399-936d-46256cfb57c7.proj]
+Build started 03/17/2025 10:24:14.
 
-Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-815c615c-d1a2-487c-b997-6d8b04d3896a.proj&quot; on node 1 (default targets).
+Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-cd23170d-8a9d-4399-936d-46256cfb57c7.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -47,15 +47,15 @@ GenerateRefInfo:
   &#194;&#169; Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 104 dependency assemblies.
-  Wrote information on 1 namespaces, 33 types, and 339 members
+  Wrote information on 1 namespaces, 33 types, and 343 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-815c615c-d1a2-487c-b997-6d8b04d3896a.proj&quot; (default targets).
-    Last step completed in 00:00:01.1501
+Done Building Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-cd23170d-8a9d-4399-936d-46256cfb57c7.proj&quot; (default targets).
+    Last step completed in 00:00:01.1520
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.1410
+    Last step completed in 00:00:00.1440
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
@@ -66,6 +66,8 @@ Adding topic filenames to API members...
     Unique name M_Geometry_FArea__ctor_2 generated for M:Geometry.FArea.#ctor(Geometry.FPoint,Geometry.FPoint)
     Unique name M_Geometry_FArea__ctor_3 generated for M:Geometry.FArea.#ctor(Geometry.FPoint,Geometry.FSize)
     Unique name M_Geometry_FArea__ctor_4 generated for M:Geometry.FArea.#ctor(System.Single,System.Single,System.Single,System.Single)
+    Unique name M_Geometry_FArea_GetIntersections_1 generated for M:Geometry.FArea.GetIntersections(Geometry.FArea,Geometry.FLine)
+    Unique name M_Geometry_FArea_HasIntersection_1 generated for M:Geometry.FArea.HasIntersection(Geometry.FArea,Geometry.FLine)
     Unique name M_Geometry_FArea_MoveTo_1 generated for M:Geometry.FArea.MoveTo(Geometry.FArea,System.Single,System.Single)
     Unique name M_Geometry_FArea_Scale_1 generated for M:Geometry.FArea.Scale(Geometry.FArea,System.Single)
     Unique name M_Geometry_FArea_Set_1 generated for M:Geometry.FArea.Set(Geometry.FArea,System.Single,System.Single,System.Single,System.Single)
@@ -108,44 +110,44 @@ Adding topic filenames to API members...
     Unique name M_Geometry_Trig_GetLineDistance_2 generated for M:Geometry.Trig.GetLineDistance(System.Single,System.Single,System.Single,System.Single)
     Unique name M_Geometry_Trig_GetLineDistance_3 generated for M:Geometry.Trig.GetLineDistance(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
     Unique name M_Geometry_Trig_GetPathOrientation_1 generated for M:Geometry.Trig.GetPathOrientation(System.Collections.Generic.List{Geometry.FPoint},Geometry.DrawingSpaceEnum)
-    Last step completed in 00:00:00.1520
+    Last step completed in 00:00:00.1480
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.1530
+    Last step completed in 00:00:00.1680
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0480
+    Last step completed in 00:00:00.0560
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.0550
+    Last step completed in 00:00:00.0710
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.2710
+    Last step completed in 00:00:00.3090
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0140
+    Last step completed in 00:00:00.0130
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0220
+    Last step completed in 00:00:00.0290
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -153,12 +155,13 @@ Building help topics...
 Loading TOC info and adding unique IDs to parent nodes
 </plugIn>Loading configuration...
 Processing topics...
-Processed 450 topic(s)
+Processed 456 topic(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 5 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+SaveComponent: Waiting for the document writer task to finish (8 Website API file(s) remaining)...
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:06.2620
+</plugIn>    Last step completed in 00:00:06.1470
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -194,27 +197,27 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.4170
+    Last step completed in 00:00:00.5611
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.6930
+    Last step completed in 00:00:00.4790
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 500 files
-Copied 629 files for the website content
-    Last step completed in 00:00:00.7810
+Copied 637 files for the website content
+    Last step completed in 00:00:00.6500
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.1380
+    Last step completed in 00:00:00.1340
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 03/07/2025 14:39:48.  Total time: 00:00:15.6073
+Build completed successfully at 03/17/2025 10:24:24.  Total time: 00:00:15.1383
 
 </buildStep>
 </shfbBuild>
