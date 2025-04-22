@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\OneDrive\Develop\Shared\Geometry\Scripts\GeometryDocumentation.shfbproj" started="04/14/2025 10:37:19">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\OneDrive\Develop\Shared\Geometry\Scripts\GeometryDocumentation.shfbproj" started="04/22/2025 10:45:29">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -32,14 +32,14 @@ Generating shared content files (en-US, English (United States))...
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0157
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-af58bef4-6988-4b26-8770-12bca0662a46.proj]
-Build started 04/14/2025 10:37:25.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-40aab203-7ee7-42a2-b78b-bd02ddbafa75.proj]
+Build started 04/22/2025 10:45:35.
 
-Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-af58bef4-6988-4b26-8770-12bca0662a46.proj&quot; on node 1 (default targets).
+Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-40aab203-7ee7-42a2-b78b-bd02ddbafa75.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -47,15 +47,15 @@ GenerateRefInfo:
   &#194;&#169; Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 104 dependency assemblies.
-  Wrote information on 1 namespaces, 47 types, and 604 members
+  Wrote information on 1 namespaces, 47 types, and 610 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-af58bef4-6988-4b26-8770-12bca0662a46.proj&quot; (default targets).
-    Last step completed in 00:00:01.1406
+Done Building Project &quot;C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-40aab203-7ee7-42a2-b78b-bd02ddbafa75.proj&quot; (default targets).
+    Last step completed in 00:00:01.5477
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.1875
+    Last step completed in 00:00:00.1728
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
@@ -127,10 +127,13 @@ Adding topic filenames to API members...
     Unique name M_Geometry_FVector3_Equals_1 generated for M:Geometry.FVector3.Equals(Geometry.FVector3,System.Single,System.Single,System.Single)
     Unique name M_Geometry_FVector3_GetMagnitude_1 generated for M:Geometry.FVector3.GetMagnitude(Geometry.FVector3,System.Single,System.Single,System.Single)
     Unique name M_Geometry_FVector3_op_Addition_1 generated for M:Geometry.FVector3.op_Addition(Geometry.FVector3,System.Single)
+    Unique name M_Geometry_FVector3_op_Addition_2 generated for M:Geometry.FVector3.op_Addition(System.Single,Geometry.FVector3)
     Unique name M_Geometry_FVector3_op_Implicit_1 generated for M:Geometry.FVector3.op_Implicit(Geometry.FVector3)~Geometry.FPoint
     Unique name M_Geometry_FVector3_op_Implicit_2 generated for M:Geometry.FVector3.op_Implicit(Geometry.FVector3)~Geometry.FPoint3
     Unique name M_Geometry_FVector3_op_Implicit_3 generated for M:Geometry.FVector3.op_Implicit(Geometry.FVector3)~Geometry.FVector2
     Unique name M_Geometry_FVector3_op_Multiply_1 generated for M:Geometry.FVector3.op_Multiply(Geometry.FVector3,System.Single)
+    Unique name M_Geometry_FVector3_op_Multiply_2 generated for M:Geometry.FVector3.op_Multiply(System.Single,Geometry.FVector3)
+    Unique name M_Geometry_FVector3_Rotate_1 generated for M:Geometry.FVector3.Rotate(Geometry.FVector3,System.Single,System.Single,System.Single)
     Unique name M_Geometry_FVector4__ctor_1 generated for M:Geometry.FVector4.#ctor(Geometry.FVector4)
     Unique name M_Geometry_FVector4__ctor_2 generated for M:Geometry.FVector4.#ctor(System.Single,System.Single,System.Single,System.Single)
     Unique name M_Geometry_FVector4_Assign_1 generated for M:Geometry.FVector4.Assign(Geometry.FVector4,System.Single)
@@ -161,20 +164,20 @@ Adding topic filenames to API members...
     Unique name M_Geometry_Trig_GetLineDistance_2 generated for M:Geometry.Trig.GetLineDistance(System.Single,System.Single,System.Single,System.Single)
     Unique name M_Geometry_Trig_GetLineDistance_3 generated for M:Geometry.Trig.GetLineDistance(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
     Unique name M_Geometry_Trig_GetPathOrientation_1 generated for M:Geometry.Trig.GetPathOrientation(System.Collections.Generic.List{Geometry.FPoint},Geometry.DrawingSpaceEnum)
-    Last step completed in 00:00:00.2188
+    Last step completed in 00:00:00.1845
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.1875
+    Last step completed in 00:00:00.2006
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0781
+    Last step completed in 00:00:00.0690
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -183,22 +186,22 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.0625
+    Last step completed in 00:00:00.0690
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.3125
+    Last step completed in 00:00:00.3478
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0312
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0312
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -206,12 +209,13 @@ Building help topics...
 Loading TOC info and adding unique IDs to parent nodes
 </plugIn>Loading configuration...
 Processing topics...
-Processed 760 topic(s)
+Processed 767 topic(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 5 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+SaveComponent: Waiting for the document writer task to finish (5 Website API file(s) remaining)...
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:09.0000
+</plugIn>    Last step completed in 00:00:10.0765
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -247,28 +251,28 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\OneDrive\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.7031
+    Last step completed in 00:00:00.4038
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.7812
+    Last step completed in 00:00:00.9785
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 500 files
 Copied 1000 files
-Copied 1004 files for the website content
-    Last step completed in 00:00:01.2500
+Copied 1012 files for the website content
+    Last step completed in 00:00:01.2997
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.2187
+    Last step completed in 00:00:00.2539
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 04/14/2025 10:37:39.  Total time: 00:00:19.7812
+Build completed successfully at 04/22/2025 10:45:51.  Total time: 00:00:21.8474
 
 </buildStep>
 </shfbBuild>
