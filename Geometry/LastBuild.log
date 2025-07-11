@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Files\Dropbox\Develop\Shared\Geometry\Scripts\GeometryDocumentation.shfbproj" started="06/13/2025 13:13:19">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Files\Dropbox\Develop\Shared\Geometry\Scripts\GeometryDocumentation.shfbproj" started="07/11/2025 12:58:46">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -16,7 +16,6 @@ Copyright &#169; 2006-2024, Eric Woodruff, All Rights Reserved
 Clearing working folder...
 -------------------------------
 Clearing any prior web/markdown output...
-    Ignoring folder &#39;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\html&#39;: The process cannot access the file &#39;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\html&#39; because it is being used by another process.
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
@@ -32,18 +31,18 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0070
+    Last step completed in 00:00:00.0090
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0300
+    Last step completed in 00:00:00.0280
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-c31d3565-264f-4412-98ec-7f5fa7f37ae6.proj]
-Build started 06/13/2025 13:13:20.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-9554c164-81e6-476e-ad1e-db335075dceb.proj]
+Build started 07/11/2025 12:58:52.
 
-Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-c31d3565-264f-4412-98ec-7f5fa7f37ae6.proj&quot; on node 1 (default targets).
+Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-9554c164-81e6-476e-ad1e-db335075dceb.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -51,15 +50,15 @@ GenerateRefInfo:
   &#194;&#169; Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 104 dependency assemblies.
-  Wrote information on 1 namespaces, 49 types, and 722 members
+  Wrote information on 1 namespaces, 49 types, and 760 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-c31d3565-264f-4412-98ec-7f5fa7f37ae6.proj&quot; (default targets).
-    Last step completed in 00:00:01.1090
+Done Building Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-9554c164-81e6-476e-ad1e-db335075dceb.proj&quot; (default targets).
+    Last step completed in 00:00:01.3010
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.2460
+    Last step completed in 00:00:00.2220
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
@@ -86,17 +85,21 @@ Adding topic filenames to API members...
     Unique name M_Geometry_FEllipse_FindIntersections_1 generated for M:Geometry.FEllipse.FindIntersections(Geometry.FPoint,System.Single,System.Single,Geometry.FLine,System.Boolean)
     Unique name M_Geometry_FEllipse_Scale_1 generated for M:Geometry.FEllipse.Scale(Geometry.FEllipse,System.Single)
     Unique name M_Geometry_FLine__ctor_1 generated for M:Geometry.FLine.#ctor(Geometry.FPoint,Geometry.FPoint)
+    Unique name M_Geometry_FLine__ctor_2 generated for M:Geometry.FLine.#ctor(System.Single,System.Single,System.Single,System.Single)
     Unique name M_Geometry_FLine_Intersect_1 generated for M:Geometry.FLine.Intersect(Geometry.FLine,Geometry.FPoint,System.Single)
     Unique name M_Geometry_FLine_Intersect_2 generated for M:Geometry.FLine.Intersect(Geometry.FPoint,Geometry.FPoint,Geometry.FPoint,System.Single)
+    Unique name M_Geometry_FLine_Scale_1 generated for M:Geometry.FLine.Scale(Geometry.FLine,Geometry.FScale)
+    Unique name M_Geometry_FLine_Scale_2 generated for M:Geometry.FLine.Scale(Geometry.FLine,System.Single)
     Unique name M_Geometry_FLine3__ctor_1 generated for M:Geometry.FLine3.#ctor(Geometry.FPoint3,Geometry.FPoint3,Geometry.FColor4)
     Unique name M_Geometry_FloatEventArgs__ctor_1 generated for M:Geometry.FloatEventArgs.#ctor(System.Single,System.Single)
-    Unique name M_Geometry_FloatPointEventArgs__ctor_1 generated for M:Geometry.FloatPointEventArgs.#ctor(Geometry.FVector2,Geometry.FVector2)
-    Unique name M_Geometry_FloatPointEventArgs__ctor_2 generated for M:Geometry.FloatPointEventArgs.#ctor(Geometry.FVector3,Geometry.FVector3)
-    Unique name M_Geometry_FloatPointEventArgs__ctor_3 generated for M:Geometry.FloatPointEventArgs.#ctor(Geometry.FVector4,Geometry.FVector4)
-    Unique name M_Geometry_FloatPointEventArgs__ctor_4 generated for M:Geometry.FloatPointEventArgs.#ctor(System.Single,System.Single,System.Single,System.Single)
-    Unique name M_Geometry_FloatPointEventArgs__ctor_5 generated for M:Geometry.FloatPointEventArgs.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
-    Unique name M_Geometry_FloatPointEventArgs__ctor_6 generated for M:Geometry.FloatPointEventArgs.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
-    Unique name M_Geometry_FloatPointEventArgs__ctor_7 generated for M:Geometry.FloatPointEventArgs.#ctor(System.String,System.Single,System.Single)
+    Unique name M_Geometry_FloatPointEventArgs__ctor_1 generated for M:Geometry.FloatPointEventArgs.#ctor(Geometry.FPoint,Geometry.FPoint)
+    Unique name M_Geometry_FloatPointEventArgs__ctor_2 generated for M:Geometry.FloatPointEventArgs.#ctor(Geometry.FVector2,Geometry.FVector2)
+    Unique name M_Geometry_FloatPointEventArgs__ctor_3 generated for M:Geometry.FloatPointEventArgs.#ctor(Geometry.FVector3,Geometry.FVector3)
+    Unique name M_Geometry_FloatPointEventArgs__ctor_4 generated for M:Geometry.FloatPointEventArgs.#ctor(Geometry.FVector4,Geometry.FVector4)
+    Unique name M_Geometry_FloatPointEventArgs__ctor_5 generated for M:Geometry.FloatPointEventArgs.#ctor(System.Single,System.Single,System.Single,System.Single)
+    Unique name M_Geometry_FloatPointEventArgs__ctor_6 generated for M:Geometry.FloatPointEventArgs.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+    Unique name M_Geometry_FloatPointEventArgs__ctor_7 generated for M:Geometry.FloatPointEventArgs.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+    Unique name M_Geometry_FloatPointEventArgs__ctor_8 generated for M:Geometry.FloatPointEventArgs.#ctor(System.String,System.Single,System.Single)
     Unique name M_Geometry_FMatrix3__ctor_1 generated for M:Geometry.FMatrix3.#ctor(System.Single[0:,0:])
     Unique name M_Geometry_FMatrix3_GetDeterminant_1 generated for M:Geometry.FMatrix3.GetDeterminant(System.Single[0:,0:])
     Unique name M_Geometry_FMatrix3_Rotate_1 generated for M:Geometry.FMatrix3.Rotate(Geometry.FVector3,System.Single,System.Single,System.Single,Geometry.AxisType)
@@ -110,6 +113,7 @@ Adding topic filenames to API members...
     Unique name M_Geometry_FPoint__ctor_1 generated for M:Geometry.FPoint.#ctor(Geometry.FPoint)
     Unique name M_Geometry_FPoint__ctor_2 generated for M:Geometry.FPoint.#ctor(Geometry.FVector2)
     Unique name M_Geometry_FPoint__ctor_3 generated for M:Geometry.FPoint.#ctor(System.Single,System.Single)
+    Unique name M_Geometry_FPoint_ClosestPoint_1 generated for M:Geometry.FPoint.ClosestPoint(Geometry.FPoint,System.Collections.Generic.List{Geometry.FPoint})
     Unique name M_Geometry_FPoint_op_Multiply_1 generated for M:Geometry.FPoint.op_Multiply(System.Single,Geometry.FPoint)
     Unique name M_Geometry_FPoint_Rotate_1 generated for M:Geometry.FPoint.Rotate(System.Single,System.Single,System.Single)
     Unique name M_Geometry_FPoint3__ctor_1 generated for M:Geometry.FPoint3.#ctor(Geometry.FPoint3)
@@ -132,6 +136,7 @@ Adding topic filenames to API members...
     Unique name M_Geometry_FSize__ctor_1 generated for M:Geometry.FSize.#ctor(System.Single,System.Single)
     Unique name M_Geometry_FVector2__ctor_1 generated for M:Geometry.FVector2.#ctor(Geometry.FVector2)
     Unique name M_Geometry_FVector2__ctor_2 generated for M:Geometry.FVector2.#ctor(System.Single,System.Single)
+    Unique name M_Geometry_FVector2_op_Division_1 generated for M:Geometry.FVector2.op_Division(System.Single,Geometry.FVector2)
     Unique name M_Geometry_FVector2_op_Multiply_1 generated for M:Geometry.FVector2.op_Multiply(System.Single,Geometry.FVector2)
     Unique name M_Geometry_FVector3__ctor_1 generated for M:Geometry.FVector3.#ctor(Geometry.FVector3)
     Unique name M_Geometry_FVector3__ctor_2 generated for M:Geometry.FVector3.#ctor(System.Single,System.Single,System.Single)
@@ -152,11 +157,13 @@ Adding topic filenames to API members...
     Unique name M_Geometry_FVector4_Assign_2 generated for M:Geometry.FVector4.Assign(Geometry.FVector4,System.Single,System.Single,System.Single,System.Single)
     Unique name M_Geometry_FVector4_GetMagnitude_1 generated for M:Geometry.FVector4.GetMagnitude(Geometry.FVector4,System.Single,System.Single,System.Single,System.Single)
     Unique name M_Geometry_FVector4_op_Addition_1 generated for M:Geometry.FVector4.op_Addition(Geometry.FVector4,System.Single)
-    Unique name M_Geometry_FVector4_op_Implicit_1 generated for M:Geometry.FVector4.op_Implicit(Geometry.FVector3)~Geometry.FVector4
-    Unique name M_Geometry_FVector4_op_Implicit_2 generated for M:Geometry.FVector4.op_Implicit(Geometry.FVector4)~Geometry.FPoint
-    Unique name M_Geometry_FVector4_op_Implicit_3 generated for M:Geometry.FVector4.op_Implicit(Geometry.FVector4)~Geometry.FPoint3
-    Unique name M_Geometry_FVector4_op_Implicit_4 generated for M:Geometry.FVector4.op_Implicit(Geometry.FVector4)~Geometry.FVector3
-    Unique name M_Geometry_FVector4_op_Implicit_5 generated for M:Geometry.FVector4.op_Implicit(Geometry.FVector4)~Geometry.FVector2
+    Unique name M_Geometry_FVector4_op_Implicit_1 generated for M:Geometry.FVector4.op_Implicit(Geometry.FPoint3)~Geometry.FVector4
+    Unique name M_Geometry_FVector4_op_Implicit_2 generated for M:Geometry.FVector4.op_Implicit(Geometry.FVector2)~Geometry.FVector4
+    Unique name M_Geometry_FVector4_op_Implicit_3 generated for M:Geometry.FVector4.op_Implicit(Geometry.FVector3)~Geometry.FVector4
+    Unique name M_Geometry_FVector4_op_Implicit_4 generated for M:Geometry.FVector4.op_Implicit(Geometry.FVector4)~Geometry.FPoint
+    Unique name M_Geometry_FVector4_op_Implicit_5 generated for M:Geometry.FVector4.op_Implicit(Geometry.FVector4)~Geometry.FPoint3
+    Unique name M_Geometry_FVector4_op_Implicit_6 generated for M:Geometry.FVector4.op_Implicit(Geometry.FVector4)~Geometry.FVector3
+    Unique name M_Geometry_FVector4_op_Implicit_7 generated for M:Geometry.FVector4.op_Implicit(Geometry.FVector4)~Geometry.FVector2
     Unique name M_Geometry_FVector4_op_Multiply_1 generated for M:Geometry.FVector4.op_Multiply(Geometry.FVector4,System.Single)
     Unique name M_Geometry_GeometryUtil_CopySign_1 generated for M:Geometry.GeometryUtil.CopySign(System.Single,System.Single)
     Unique name M_Geometry_GeometryUtil_GetValue_1 generated for M:Geometry.GeometryUtil.GetValue(System.Text.RegularExpressions.Match,System.String)
@@ -170,23 +177,23 @@ Adding topic filenames to API members...
     Unique name M_Geometry_SlopeInterceptItem_Convert_1 generated for M:Geometry.SlopeInterceptItem.Convert(Geometry.SlopeInterceptItem,Geometry.FPoint,Geometry.FPoint)
     Unique name M_Geometry_SlopeInterceptItem_GetSlope_1 generated for M:Geometry.SlopeInterceptItem.GetSlope(Geometry.FPoint,Geometry.FPoint)
     Unique name M_Geometry_Trig_GetDestPoint_1 generated for M:Geometry.Trig.GetDestPoint(System.Single,System.Single,System.Single,System.Single)
-    Unique name M_Geometry_Trig_GetInsideParallelLine_1 generated for M:Geometry.Trig.GetInsideParallelLine(Geometry.FPoint,Geometry.FPoint,System.Single,Geometry.WindingOrientationEnum,Geometry.DrawingSpaceEnum)
-    Unique name M_Geometry_Trig_GetLineAngle_1 generated for M:Geometry.Trig.GetLineAngle(Geometry.FPoint,Geometry.FPoint)
+    Unique name M_Geometry_Trig_GetInsideParallelLine_1 generated for M:Geometry.Trig.GetInsideParallelLine(Geometry.FVector2,Geometry.FVector2,System.Single,Geometry.WindingOrientationEnum,Geometry.DrawingSpaceEnum)
+    Unique name M_Geometry_Trig_GetLineAngle_1 generated for M:Geometry.Trig.GetLineAngle(Geometry.FVector2,Geometry.FVector2)
     Unique name M_Geometry_Trig_GetLineAngle_2 generated for M:Geometry.Trig.GetLineAngle(System.Single,System.Single,System.Single,System.Single)
-    Unique name M_Geometry_Trig_GetLineDistance_1 generated for M:Geometry.Trig.GetLineDistance(Geometry.FPoint,Geometry.FPoint)
+    Unique name M_Geometry_Trig_GetLineDistance_1 generated for M:Geometry.Trig.GetLineDistance(Geometry.FVector2,Geometry.FVector2)
     Unique name M_Geometry_Trig_GetLineDistance_2 generated for M:Geometry.Trig.GetLineDistance(System.Single,System.Single,System.Single,System.Single)
     Unique name M_Geometry_Trig_GetLineDistance_3 generated for M:Geometry.Trig.GetLineDistance(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
-    Unique name M_Geometry_Trig_GetPathOrientation_1 generated for M:Geometry.Trig.GetPathOrientation(System.Collections.Generic.List{Geometry.FPoint},Geometry.DrawingSpaceEnum)
+    Unique name M_Geometry_Trig_GetPathOrientation_1 generated for M:Geometry.Trig.GetPathOrientation(System.Collections.Generic.List{Geometry.FVector2},Geometry.DrawingSpaceEnum)
     Unique name M_Geometry_Trig_RadToDeg_1 generated for M:Geometry.Trig.RadToDeg(System.Single)
-    Last step completed in 00:00:00.3250
+    Last step completed in 00:00:00.2540
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.2610
+    Last step completed in 00:00:00.4170
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0810
+    Last step completed in 00:00:00.1020
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -195,27 +202,27 @@ No additional content to copy
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.1120
+    Last step completed in 00:00:00.0940
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.1980
+    Last step completed in 00:00:00.4120
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0200
+    Last step completed in 00:00:00.0230
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0300
+    Last step completed in 00:00:00.0370
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -223,12 +230,12 @@ Building help topics...
 Loading TOC info and adding unique IDs to parent nodes
 </plugIn>Loading configuration...
 Processing topics...
-Processed 901 topic(s)
+Processed 942 topic(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 5 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:07.7040
+</plugIn>    Last step completed in 00:00:09.7450
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -264,29 +271,29 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.0860
+    Last step completed in 00:00:00.5180
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:01.1310
+    Last step completed in 00:00:00.8120
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 500 files
 Copied 1000 files
-Copied 1160 files for the website content
-    Last step completed in 00:00:01.7720
+Copied 1204 files for the website content
+    Last step completed in 00:00:01.5450
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Not all build output was removed from &#39;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\&#39;: The process cannot access the file &#39;PageNotFound.html&#39; because it is being used by another process.
-    Last step completed in 00:00:00.2860
+    Not all build output was removed from &#39;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\&#39;: The process cannot access the file &#39;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\css&#39; because it is being used by another process.
+    Last step completed in 00:00:00.2610
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 06/13/2025 13:13:33.  Total time: 00:00:14.7078
+Build completed successfully at 07/11/2025 12:59:07.  Total time: 00:00:21.4960
 
 </buildStep>
 </shfbBuild>

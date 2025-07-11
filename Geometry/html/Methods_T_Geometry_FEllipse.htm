@@ -21,11 +21,17 @@
             ellipse.
             </td></tr><tr><td><a href="M_Geometry_FEllipse_GetPerimeter.htm">GetPerimeter</a></td><td>
             Return the perimeter of the shape.
+            </td></tr><tr><td><a href="M_Geometry_FEllipse_GetPointOnEllipseEdge.htm">GetPointOnEllipseEdge</a></td><td>
+            Return a reference the specified point on the edge of the ellipse that
+            corresponds to the reference point given.
             </td></tr><tr><td><a href="M_Geometry_FEllipse_GetStringLength.htm">GetStringLength</a></td><td>
             Return the length of the string between the two focal points used to
             draw the entire perimeter.
             </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_Geometry_FEllipse_GetVertices.htm">GetVertices</a></td><td>
-            Return the vertices of the area.
+            Return the vertices of the edge of the ellipse.
+            </td></tr><tr><td><a href="M_Geometry_FEllipse_GetVerticesInArc.htm">GetVerticesInArc</a></td><td>
+            Return the vertices of the edge of the ellipse, along the arc,
+            beginning at the starting angle and moving through specified sweep.
             </td></tr><tr><td><a href="M_Geometry_FEllipse_HasVolume.htm">HasVolume</a></td><td>
             Return a value indicating whether the specified ellipse has a usable
             volume.
@@ -34,6 +40,9 @@
             different.
             </td></tr><tr><td><a href="M_Geometry_FEllipse_IsEmpty.htm">IsEmpty</a></td><td>
             Return a value indicating whether the provided ellipse is empty.
+            </td></tr><tr><td><a href="M_Geometry_FEllipse_IsPointOnEllipse.htm">IsPointOnEllipse</a></td><td>
+            Return a value indicating whether the specified point is on the
+            provided ellipse.
             </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone" target="_blank" rel="noopener noreferrer">MemberwiseClone</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_Geometry_FEllipse_OnCenterChanged.htm">OnCenterChanged</a></td><td>
             Raises the CenterChanged event when the center value has changed.
             </td></tr><tr><td><a href="M_Geometry_FEllipse_OnRadiusXChanged.htm">OnRadiusXChanged</a></td><td>
@@ -42,6 +51,12 @@
             </td></tr><tr><td><a href="M_Geometry_FEllipse_OnRadiusYChanged.htm">OnRadiusYChanged</a></td><td>
             Raises the RadiusY changed event when the value of the RadiusY
             property has changed.
+            </td></tr><tr><td><a href="M_Geometry_FEllipse_OnRotationChanged.htm">OnRotationChanged</a></td><td>
+            Raises the RotationChanged event when the value of the Rotation
+            property has changed.
+            </td></tr><tr><td><a href="M_Geometry_FEllipse_OnShapeChanged.htm">OnShapeChanged</a></td><td>
+            Raises the ShapeChanged event when a notable property of the shape
+            has changed.
             </td></tr><tr><td><a href="M_Geometry_FEllipse_Scale.htm">Scale(FEllipse, FEllipse)</a></td><td>
             Return the scale factor between the two ellipses.
             </td></tr><tr><td><a href="M_Geometry_FEllipse_Scale_1.htm">Scale(FEllipse, Single)</a></td><td>
@@ -50,6 +65,9 @@
             </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">ToString</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_Geometry_FEllipse_TransferValues.htm">TransferValues</a></td><td>
             Transfer the member values from the source to the target, raising any
             associated events where appropriate.
+            </td></tr><tr><td><a href="M_Geometry_FEllipse_TryPlaceEllipseEdgeOnLine.htm">TryPlaceEllipseEdgeOnLine</a></td><td>
+            Attempt to place the edge of the provided ellipse on the supplied line
+            such that both points of the line touch the edge.
             </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>See Also</h2><div id="seeAlsoSection"><h4>Reference</h4><div><a href="T_Geometry_FEllipse.htm">FEllipse Class</a></div><div><a href="N_Geometry.htm">Geometry Namespace</a></div></div></div><div id="InThisArticleColumn" class="column is-hidden-mobile"><nav class="menu sticky is-hidden"><p class="menu-label"><strong>In This Article</strong></p><ul id="InThisArticleMenu" class="menu-list"><li><a class="quickLink">Methods</a></li><li><a class="quickLink">See Also</a></li></ul></nav></div></div></div></div><script>$(function(){
 SetDefaultLanguage("cs");
 LoadTocFile(null, null);
