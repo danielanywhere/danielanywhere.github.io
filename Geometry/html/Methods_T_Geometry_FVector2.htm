@@ -2,6 +2,10 @@
             Clear the values on the specified vector.
             </td></tr><tr><td><a href="M_Geometry_FVector2_Clone.htm">Clone</a></td><td>
             Return a memberwise clone of the provided vector.
+            </td></tr><tr><td><a href="M_Geometry_FVector2_ClosestPoint.htm">ClosestPoint(FVector2, List<span id="LSTC7B555C7_0" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>FArea<span id="LSTC7B555C7_1" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>)</a></td><td>
+            Return the closest point to the check-point.
+            </td></tr><tr><td><a href="M_Geometry_FVector2_ClosestPoint_1.htm">ClosestPoint(FVector2, List<span id="LSTC7B555C7_2" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>FVector2<span id="LSTC7B555C7_3" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>)</a></td><td>
+            Return the closest point to the check-point.
             </td></tr><tr><td><a href="M_Geometry_FVector2_Delta.htm">Delta</a></td><td>
             Return the coordinate difference between two vectors.
             </td></tr><tr><td><a href="M_Geometry_FVector2_Dot.htm">Dot</a></td><td>
@@ -9,12 +13,14 @@
             </td></tr><tr><td><a href="M_Geometry_FVector2_Equals.htm">Equals</a></td><td>
             Return a value indicating whether this item's members are equal to the
             members of the caller's item.
-            <br />(Overrides <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">Object<span id="LSTC7B555C7_0" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>Equals(Object)</a>)</td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.finalize" target="_blank" rel="noopener noreferrer">Finalize</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_Geometry_FVector2_GetArray.htm">GetArray</a></td><td>
+            <br />(Overrides <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">Object<span id="LSTC7B555C7_4" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>Equals(Object)</a>)</td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.finalize" target="_blank" rel="noopener noreferrer">Finalize</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_Geometry_FVector2_GetArray.htm">GetArray</a></td><td>
             Return an array of values representing the member axes of the provided
             item.
+            </td></tr><tr><td><a href="M_Geometry_FVector2_GetCenter.htm">GetCenter</a></td><td>
+            Return the center point of the collection of points.
             </td></tr><tr><td><a href="M_Geometry_FVector2_GetHashCode.htm">GetHashCode</a></td><td>
             Return the unique hash code for this instance.
-            <br />(Overrides <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">Object<span id="LSTC7B555C7_1" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>GetHashCode<span id="LSTC7B555C7_2" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a>)</td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_Geometry_FVector2_Invert.htm">Invert</a></td><td>
+            <br />(Overrides <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">Object<span id="LSTC7B555C7_5" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>GetHashCode<span id="LSTC7B555C7_6" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a>)</td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_Geometry_FVector2_Invert.htm">Invert</a></td><td>
             Invert the values of the caller's coordinate.
             </td></tr><tr><td><a href="M_Geometry_FVector2_IsDifferent.htm">IsDifferent</a></td><td>
             Return a value indicating whether two vectors are different.
@@ -39,7 +45,9 @@
             Raise the CoordinateChanged event whenever coordinates have changed.
             </td></tr><tr><td><a href="M_Geometry_FVector2_Parse.htm">Parse</a></td><td>
             Parse a coordinate string and return its FVector2 representation.
-            </td></tr><tr><td><a href="M_Geometry_FVector2_Rotate.htm">Rotate</a></td><td>
+            </td></tr><tr><td><a href="M_Geometry_FVector2_Rotate.htm">Rotate(FVector2, Single)</a></td><td>
+            Rotate the caller's point around the origin.
+            </td></tr><tr><td><a href="M_Geometry_FVector2_Rotate_1.htm">Rotate(Single, Single, Single)</a></td><td>
             Rotate the caller's point around the origin.
             </td></tr><tr><td><a href="M_Geometry_FVector2_Scale.htm">Scale</a></td><td>
             Scale the caller's vector by a uniform factor.
@@ -50,7 +58,7 @@
             array.
             </td></tr><tr><td><a href="M_Geometry_FVector2_ToString.htm">ToString</a></td><td>
             Return the string representation of this item.
-            <br />(Overrides <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">Object<span id="LSTC7B555C7_3" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ToString<span id="LSTC7B555C7_4" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a>)</td></tr><tr><td><a href="M_Geometry_FVector2_TransferValues.htm">TransferValues</a></td><td>
+            <br />(Overrides <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">Object<span id="LSTC7B555C7_7" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ToString<span id="LSTC7B555C7_8" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a>)</td></tr><tr><td><a href="M_Geometry_FVector2_TransferValues.htm">TransferValues</a></td><td>
             Transfer the member values of one instance to another.
             </td></tr><tr><td><a href="M_Geometry_FVector2_Translate.htm">Translate</a></td><td>
             Translate the values of the caller's vector by the provided offset.
