@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Files\Dropbox\Develop\Shared\SvgPlotting\Scripts\SvgPlottingDocumentation.shfbproj" started="07/11/2025 19:35:53">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Files\Dropbox\Develop\Shared\SvgPlotting\Scripts\SvgPlottingDocumentation.shfbproj" started="07/14/2025 09:52:01">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -34,18 +34,18 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0090
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0240
+    Last step completed in 00:00:00.0180
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-ae7c3fe1-4f30-4563-93cb-126fb226ca51.proj]
-Build started 07/11/2025 19:35:54.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-ca08aac8-ce49-4223-8bec-64fa5b66249c.proj]
+Build started 07/14/2025 09:52:02.
 
-Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgPlotting\Working\GenerateRefInfo-ae7c3fe1-4f30-4563-93cb-126fb226ca51.proj&quot; on node 1 (default targets).
+Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgPlotting\Working\GenerateRefInfo-ca08aac8-ce49-4223-8bec-64fa5b66249c.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -56,31 +56,31 @@ GenerateRefInfo:
   Wrote information on 1 namespaces, 11 types, and 71 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgPlotting\Working\GenerateRefInfo-ae7c3fe1-4f30-4563-93cb-126fb226ca51.proj&quot; (default targets).
-    Last step completed in 00:00:01.1750
+Done Building Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgPlotting\Working\GenerateRefInfo-ca08aac8-ce49-4223-8bec-64fa5b66249c.proj&quot; (default targets).
+    Last step completed in 00:00:00.9980
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.1130
+    Last step completed in 00:00:00.1120
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
     Unique name M_SvgPlotting_PlotPointItem__ctor_1 generated for M:SvgPlotting.PlotPointItem.#ctor(SvgPlotting.PlotPointPenStatus)
     Unique name M_SvgPlotting_SvgImageItem__ctor_1 generated for M:SvgPlotting.SvgImageItem.#ctor(Html.HtmlDocument,System.Int32)
-    Unique name M_SvgPlotting_SvgPlottingUtil_ApplyMatrix_1 generated for M:SvgPlotting.SvgPlottingUtil.ApplyMatrix(SvgPlotting.PlotPointCollection,Geometry.FPoint,Geometry.FMatrix4)
+    Unique name M_SvgPlotting_SvgPlottingUtil_ApplyMatrix_1 generated for M:SvgPlotting.SvgPlottingUtil.ApplyMatrix(SvgPlotting.PlotPointCollection,Geometry.FVector2,Geometry.FMatrix4)
     Unique name M_SvgPlotting_SvgPlottingUtil_GetValue_1 generated for M:SvgPlotting.SvgPlottingUtil.GetValue(System.Text.RegularExpressions.Match,System.String)
     Unique name M_SvgPlotting_SvgPlottingUtil_ToDouble_1 generated for M:SvgPlotting.SvgPlottingUtil.ToDouble(System.String)
     Unique name M_SvgPlotting_SvgPlottingUtil_ToFloat_1 generated for M:SvgPlotting.SvgPlottingUtil.ToFloat(System.String)
     Unique name M_SvgPlotting_UnitGroupItem__ctor_1 generated for M:SvgPlotting.UnitGroupItem.#ctor(ConversionCalc.ConversionDefinitionItem,System.String)
-    Last step completed in 00:00:00.1020
+    Last step completed in 00:00:00.1110
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.1190
+    Last step completed in 00:00:00.1050
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0530
+    Last step completed in 00:00:00.0510
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -94,22 +94,22 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.0710
+    Last step completed in 00:00:00.0630
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.1230
+    Last step completed in 00:00:00.1840
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0160
+    Last step completed in 00:00:00.0180
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgPlotting\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0340
+    Last step completed in 00:00:00.0350
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -222,28 +222,28 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:SvgPlotting.FAre
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:SvgPlotting.FAreaRounded] Unknown reference link target &#39;T:Geometry.FArea&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:SvgPlotting.FAreaRounded] Unknown reference link target &#39;E:Geometry.FArea.WidthChanged&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:SvgPlotting.FAreaRounded] Unknown reference link target &#39;T:Geometry.FArea&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.FAreaRounded.GetVertices(SvgPlotting.FAreaRounded,System.Int32)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.PathEntryCollection.ConvertToAbsolute(SvgPlotting.PathEntryCollection,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.PlotPointCollection.Add(SvgPlotting.PlotPointPenStatus,Geometry.FPoint)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.PlotPointCollection.ClosestPoint(Geometry.FPoint,SvgPlotting.PlotPointCollection)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.PlotPointCollection.ClosestPoint(Geometry.FPoint,SvgPlotting.PlotPointCollection)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.PlotPointCollection.ClosestPointIndex(Geometry.FPoint,SvgPlotting.PlotPointCollection)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.PlotPointCollection.GetCenter(SvgPlotting.PlotPointCollection)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.PlotPointCollection.op_Implicit(System.Collections.Generic.List{Geometry.FPoint})~SvgPlotting.PlotPointCollection] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgPlotting.PlotPointItem.Point] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.FAreaRounded.GetVertices(SvgPlotting.FAreaRounded,System.Int32)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.PathEntryCollection.ConvertToAbsolute(SvgPlotting.PathEntryCollection,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.PlotPointCollection.Add(SvgPlotting.PlotPointPenStatus,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.PlotPointCollection.ClosestPoint(Geometry.FVector2,SvgPlotting.PlotPointCollection)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.PlotPointCollection.ClosestPoint(Geometry.FVector2,SvgPlotting.PlotPointCollection)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.PlotPointCollection.ClosestPointIndex(Geometry.FVector2,SvgPlotting.PlotPointCollection)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.PlotPointCollection.GetCenter(SvgPlotting.PlotPointCollection)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.PlotPointCollection.op_Implicit(System.Collections.Generic.List{Geometry.FVector2})~SvgPlotting.PlotPointCollection] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgPlotting.PlotPointItem.Point] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgImageItem.#ctor(Html.HtmlDocument,System.Int32)] Unknown reference link target &#39;T:Html.HtmlDocument&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgPlotting.SvgImageItem.Document] Unknown reference link target &#39;T:Html.HtmlDocument&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgPlotting.SvgImageItem.GlobalImageSize] Unknown reference link target &#39;T:Geometry.FSize&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgPlotting.SvgImageItem.GlobalScale] Unknown reference link target &#39;T:Geometry.FScale&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgPlotting.SvgImageItem.GlobalTranslation] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgImageItem.Initialize(Html.HtmlDocument,System.Int32)] Unknown reference link target &#39;T:Html.HtmlDocument&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.ApplyMatrix(SvgPlotting.PlotPointCollection,Geometry.FPoint,Geometry.FMatrix2)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.ApplyMatrix(SvgPlotting.PlotPointCollection,Geometry.FPoint,Geometry.FMatrix2)] Unknown reference link target &#39;T:Geometry.FMatrix2&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.ApplyMatrix(SvgPlotting.PlotPointCollection,Geometry.FPoint,Geometry.FMatrix4)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.ApplyMatrix(SvgPlotting.PlotPointCollection,Geometry.FPoint,Geometry.FMatrix4)] Unknown reference link target &#39;T:Geometry.FMatrix4&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.ApplyRotation(SvgPlotting.PlotPointCollection,Geometry.FPoint,System.Single)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.ApplyMatrix(SvgPlotting.PlotPointCollection,Geometry.FVector2,Geometry.FMatrix2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.ApplyMatrix(SvgPlotting.PlotPointCollection,Geometry.FVector2,Geometry.FMatrix2)] Unknown reference link target &#39;T:Geometry.FMatrix2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.ApplyMatrix(SvgPlotting.PlotPointCollection,Geometry.FVector2,Geometry.FMatrix4)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.ApplyMatrix(SvgPlotting.PlotPointCollection,Geometry.FVector2,Geometry.FMatrix4)] Unknown reference link target &#39;T:Geometry.FMatrix4&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.ApplyRotation(SvgPlotting.PlotPointCollection,Geometry.FVector2,System.Single)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.FillTransformations(Html.HtmlNodeItem,System.Collections.Generic.List{System.String})] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.GetCoordinatePairs(System.String)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.GetCoordinatePairs(System.String)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.GetCurrentFontSize(SvgPlotting.SvgImageItem,Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.GetDocumentFontSize(SvgPlotting.SvgImageItem,Html.HtmlNodeItem,System.Single)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.GetFloatValue(SvgPlotting.SvgImageItem,System.String,Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
@@ -255,8 +255,8 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlotting
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgPlotting.SvgPlottingUtil.HConverter] Unknown reference link target &#39;T:ConversionCalc.Converter&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.IsVisible(Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.ProcessNode(SvgPlotting.SvgImageItem,Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.Transform(SvgPlotting.SvgImageItem,SvgPlotting.PlotPointCollection,Geometry.FPoint,Html.HtmlNodeItem)] Unknown reference link target &#39;T:Geometry.FPoint&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.Transform(SvgPlotting.SvgImageItem,SvgPlotting.PlotPointCollection,Geometry.FPoint,Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.Transform(SvgPlotting.SvgImageItem,SvgPlotting.PlotPointCollection,Geometry.FVector2,Html.HtmlNodeItem)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.SvgPlottingUtil.Transform(SvgPlotting.SvgImageItem,SvgPlotting.PlotPointCollection,Geometry.FVector2,Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgPlotting.UnitGroupItem.#ctor(ConversionCalc.ConversionDefinitionItem,System.String)] Unknown reference link target &#39;T:ConversionCalc.ConversionDefinitionItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgPlotting.UnitGroupItem.Conversion] Unknown reference link target &#39;T:ConversionCalc.ConversionDefinitionItem&#39;.
 Processed 110 topic(s)
@@ -265,7 +265,7 @@ CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 o
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:02.4750
+</plugIn>    Last step completed in 00:00:02.6330
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -301,27 +301,27 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgPlotting\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgPlotting\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgPlotting\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.0610
+    Last step completed in 00:00:00.0620
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.4230
+    Last step completed in 00:00:00.4010
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 202 files for the website content
-    Last step completed in 00:00:00.3740
+    Last step completed in 00:00:00.2710
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
     Not all build output was removed from &#39;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgPlotting\Working\&#39;: The process cannot access the file &#39;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgPlotting\Working\Output\Website\css&#39; because it is being used by another process.
-    Last step completed in 00:00:00.0720
+    Last step completed in 00:00:00.0550
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 07/11/2025 19:35:59.  Total time: 00:00:06.2530
+Build completed successfully at 07/14/2025 09:52:07.  Total time: 00:00:06.1959
 
 </buildStep>
 </shfbBuild>
