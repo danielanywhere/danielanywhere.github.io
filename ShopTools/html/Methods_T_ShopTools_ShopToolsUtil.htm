@@ -4,7 +4,7 @@
             Calculate the start and end locations of the tool and display for each
             of the operations in the caller's operations collection, returning the
             final location of the toolpath.
-            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_CalculateLayout_1.htm">CalculateLayout(CutProfileItem, WorkpieceInfoItem, FPoint)</a></td><td>
+            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_CalculateLayout_1.htm">CalculateLayout(CutProfileItem, WorkpieceInfoItem, FVector2)</a></td><td>
             Calculate the start and end locations of the tool and display for each
             of the operations in the caller's operations collection, returning a
             collection of locations, each referenced to its associated operation.
@@ -20,9 +20,15 @@
             Clear the contents of the specified string builder.
             </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_ConvertRange.htm">ConvertRange</a></td><td>
             Convert from one numeric range to another.
-            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_DeepClone__1.htm">DeepClone<span id="LST510C6D9B_1" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>T<span id="LST510C6D9B_2" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span></a></td><td>
+            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_ConvertToRelative_1.htm">ConvertToRelative(List<span id="LST510C6D9B_1" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>FVector2<span id="LST510C6D9B_2" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, Boolean)</a></td><td>
+            Return a collection of points that are relative to the supplied
+            absolute points.
+            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_ConvertToRelative.htm">ConvertToRelative(PlotPointCollection, Boolean)</a></td><td>
+            Return a collection of points that are relative to the supplied
+            absolute points.
+            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_DeepClone__1.htm">DeepClone<span id="LST510C6D9B_3" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>T<span id="LST510C6D9B_4" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span></a></td><td>
             Create a complete, recursive deep clone of the provided object.
-            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_DeepTransfer__1.htm">DeepTransfer<span id="LST510C6D9B_3" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>T<span id="LST510C6D9B_4" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span></a></td><td>
+            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_DeepTransfer__1.htm">DeepTransfer<span id="LST510C6D9B_5" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>T<span id="LST510C6D9B_6" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span></a></td><td>
             Conduct a deep transfer of all of the lowest level values from the
             source object to the target.
             </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_DrawEllipseCenterDiameter.htm">DrawEllipseCenterDiameter</a></td><td>
@@ -39,14 +45,16 @@
             Draw a line using floating point coordinates, scaling, and translation.
             </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_DrawOperation.htm">DrawOperation</a></td><td>
             Draw the specified operation to the provided graphics context.
-            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_DrawRectangle.htm">DrawRectangle(FPoint, FPoint, Graphics, Pen, Rectangle, Single)</a></td><td>
+            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_DrawRectangle.htm">DrawRectangle(FVector2, FVector2, Graphics, Pen, Rectangle, Single)</a></td><td>
             Draw a rectangle using the upper left coordinate with length and width.
-            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_DrawRectangle_1.htm">DrawRectangle(FPoint, Single, Single, Graphics, Pen, Rectangle, Single)</a></td><td>
+            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_DrawRectangle_1.htm">DrawRectangle(FVector2, Single, Single, Graphics, Pen, Rectangle, Single)</a></td><td>
             Draw a rectangle using the upper left coordinate with length and width.
             </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_DrawRouter.htm">DrawRouter</a></td><td>
             Draw the starting or ending router symbol.
             </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_DrawTable.htm">DrawTable</a></td><td>
             Draw the work table and the workpiece.
+            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_DumpPoints.htm">DumpPoints</a></td><td>
+            Dump the coordinates of the points to the local trace channel.
             </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">Equals</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_ExpandCamelCase.htm">ExpandCamelCase</a></td><td>
             Expand a camel-case value to alphanumeric with spaces.
             </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_FillEllipseCenterDiameter.htm">FillEllipseCenterDiameter</a></td><td>
@@ -59,9 +67,9 @@
             </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_FillEllipseRadius.htm">FillEllipseRadius</a></td><td>
             Draw a filledellipse using the upper left coordinate with X and Y
             radii.
-            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_FillRectangle.htm">FillRectangle(FPoint, FPoint, Graphics, Rectangle, Single, Boolean)</a></td><td>
+            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_FillRectangle.htm">FillRectangle(FVector2, FVector2, Graphics, Rectangle, Single, Boolean)</a></td><td>
             Fill a rectangle using the upper left coordinate with length and width.
-            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_FillRectangle_1.htm">FillRectangle(FPoint, Single, Single, Graphics, Rectangle, Single, Boolean)</a></td><td>
+            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_FillRectangle_1.htm">FillRectangle(FVector2, Single, Single, Graphics, Rectangle, Single, Boolean)</a></td><td>
             Fill a rectangle using the upper left coordinate with length and width.
             </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.finalize" target="_blank" rel="noopener noreferrer">Finalize</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_FromMultiLineString.htm">FromMultiLineString</a></td><td>
             Convert a multiline string to a series of limited length lines.
@@ -79,7 +87,7 @@
             </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_GetDataUri.htm">GetDataUri(FileInfo)</a></td><td>
             Return a reference to a Data URI created from the specified binary
             file.
-            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_GetDataUri_1.htm">GetDataUri(String, <span id="LST510C6D9B_5" data-languageSpecificText="cpp=array&lt;"></span>Byte<span id="LST510C6D9B_6" data-languageSpecificText="cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]"></span>)</a></td><td>
+            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_GetDataUri_1.htm">GetDataUri(String, <span id="LST510C6D9B_7" data-languageSpecificText="cpp=array&lt;"></span>Byte<span id="LST510C6D9B_8" data-languageSpecificText="cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]"></span>)</a></td><td>
             Return a reference to a Data URI created from the provided binary data
             loaded in association with a named file.
             </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_GetDisplayCoordinate.htm">GetDisplayCoordinate</a></td><td>
@@ -156,6 +164,8 @@
             from the source.
             </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_ReadConfiguration.htm">ReadConfiguration</a></td><td>
             Read the configuration file.
+            </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_RemoveDuplicates.htm">RemoveDuplicates</a></td><td>
+            Remove all duplicate values from the caller's plot point collection.
             </td></tr><tr><td><a href="M_ShopTools_ShopToolsUtil_ResizeArea.htm">ResizeArea</a></td><td>
             Return a rectangle of the specified size ratio that perfectly fits
             into the caller's space.
