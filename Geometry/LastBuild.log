@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Files\Dropbox\Develop\Shared\Geometry\Scripts\GeometryDocumentation.shfbproj" started="07/22/2025 10:25:15">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Files\Dropbox\Develop\Shared\Geometry\Scripts\GeometryDocumentation.shfbproj" started="08/20/2025 13:22:00">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -31,34 +31,34 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0370
+    Last step completed in 00:00:00.0378
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-b44cd6a8-c902-45bd-a928-6221e5e3b729.proj]
-Build started 07/22/2025 10:25:22.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-15e1885f-c1d1-421c-acdb-79e1c8a66fd1.proj]
+Build started 08/20/2025 13:22:06.
 
-Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-b44cd6a8-c902-45bd-a928-6221e5e3b729.proj&quot; on node 1 (default targets).
+Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-15e1885f-c1d1-421c-acdb-79e1c8a66fd1.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
   Microsoft.Build (v17.9.8+b34f75857bacf5ecd5531f7ff763a5739d3ae435)
-  &#194;&#169; Microsoft Corporation. All rights reserved.
+  c Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 104 dependency assemblies.
   Wrote information on 1 namespaces, 49 types, and 798 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-b44cd6a8-c902-45bd-a928-6221e5e3b729.proj&quot; (default targets).
-    Last step completed in 00:00:01.4210
+Done Building Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\GenerateRefInfo-15e1885f-c1d1-421c-acdb-79e1c8a66fd1.proj&quot; (default targets).
+    Last step completed in 00:00:01.5387
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.2190
+    Last step completed in 00:00:00.2270
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
@@ -188,15 +188,15 @@ Adding topic filenames to API members...
     Unique name M_Geometry_Trig_GetLineDistance_3 generated for M:Geometry.Trig.GetLineDistance(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
     Unique name M_Geometry_Trig_GetPathOrientation_1 generated for M:Geometry.Trig.GetPathOrientation(System.Collections.Generic.List{Geometry.FVector2},Geometry.DrawingSpaceEnum)
     Unique name M_Geometry_Trig_RadToDeg_1 generated for M:Geometry.Trig.RadToDeg(System.Single)
-    Last step completed in 00:00:00.2610
+    Last step completed in 00:00:00.2592
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.4180
+    Last step completed in 00:00:00.3790
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.1090
+    Last step completed in 00:00:00.1080
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -205,16 +205,16 @@ No additional content to copy
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.1140
+    Last step completed in 00:00:00.1150
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.3940
+    Last step completed in 00:00:00.3983
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -225,7 +225,7 @@ Merging custom build component configurations
 C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0270
+    Last step completed in 00:00:00.0300
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -238,7 +238,7 @@ CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 5 o
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:10.7580
+</plugIn>    Last step completed in 00:00:10.8753
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -274,12 +274,12 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.4640
+    Last step completed in 00:00:00.4639
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:01.0770
+    Last step completed in 00:00:00.9459
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -287,16 +287,15 @@ Copying website files to output folder...
 Copied 500 files
 Copied 1000 files
 Copied 1255 files for the website content
-    Last step completed in 00:00:01.9610
+    Last step completed in 00:00:01.7929
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Not all build output was removed from &#39;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\&#39;: The process cannot access the file &#39;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Geometry\Working\&#39; because it is being used by another process.
-    Last step completed in 00:00:00.3080
+    Last step completed in 00:00:00.2730
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 07/22/2025 10:25:39.  Total time: 00:00:23.9470
+Build completed successfully at 08/20/2025 13:22:23.  Total time: 00:00:23.0570
 
 </buildStep>
 </shfbBuild>
