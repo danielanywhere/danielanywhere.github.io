@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Files\Dropbox\Develop\Shared\Html\Scripts\HtmlDocumentation.shfbproj" started="09/04/2025 14:15:35">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Files\Dropbox\Develop\Shared\Html\Scripts\HtmlDocumentation.shfbproj" started="09/10/2025 11:35:11">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -11,9 +11,6 @@ Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files 
 Loading and initializing plug-ins...
 Website Table of Contents Generator Version 2024.12.21.0
 Copyright &#169; 2006-2024, Eric Woodruff, All Rights Reserved
-</buildStep>
-<buildStep step="ClearWorkFolder">
-Clearing working folder...
 -------------------------------
 Clearing any prior web/markdown output...
 </buildStep>
@@ -28,18 +25,18 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0070
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0260
+    Last step completed in 00:00:00.0313
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-03c95743-f748-4d08-87de-653730a456f1.proj]
-Build started 09/04/2025 14:15:36.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-61d1e36a-360f-4c16-81e0-1196469c8f8b.proj]
+Build started 09/10/2025 11:35:16.
 
-Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\GenerateRefInfo-03c95743-f748-4d08-87de-653730a456f1.proj&quot; on node 1 (default targets).
+Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\GenerateRefInfo-61d1e36a-360f-4c16-81e0-1196469c8f8b.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -50,12 +47,12 @@ GenerateRefInfo:
   Wrote information on 2 namespaces, 51 types, and 741 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\GenerateRefInfo-03c95743-f748-4d08-87de-653730a456f1.proj&quot; (default targets).
-    Last step completed in 00:00:00.9794
+Done Building Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\GenerateRefInfo-61d1e36a-360f-4c16-81e0-1196469c8f8b.proj&quot; (default targets).
+    Last step completed in 00:00:02.5777
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.3166
+    Last step completed in 00:00:00.2630
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
@@ -186,20 +183,20 @@ Adding topic filenames to API members...
     Unique name M_Html_NameIDCollection_Add_2 generated for M:Html.NameIDCollection.Add(System.String,System.Int32,System.Object)
     Unique name M_Html_NameIDCollection_Dispose_1 generated for M:Html.NameIDCollection.Dispose(System.Boolean)
     Unique name M_Html_ObjectCollection_op_Implicit_1 generated for M:Html.ObjectCollection.op_Implicit(Html.ObjectCollection)~System.Object[]
-    Last step completed in 00:00:00.4468
+    Last step completed in 00:00:00.3140
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.6642
+    Last step completed in 00:00:00.3330
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0845
+    Last step completed in 00:00:00.0880
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -208,22 +205,22 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.1154
+    Last step completed in 00:00:00.1050
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.1693
+    Last step completed in 00:00:00.4101
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0426
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0378
+    Last step completed in 00:00:00.0370
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -234,10 +231,9 @@ Processing topics...
 Processed 766 topic(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
-SaveComponent: Waiting for the document writer task to finish (9 Website API file(s) remaining)...
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:09.7685
+</plugIn>    Last step completed in 00:00:09.3976
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -273,12 +269,12 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.4013
+    Last step completed in 00:00:00.3633
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.9318
+    Last step completed in 00:00:01.0361
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -286,15 +282,16 @@ Copying website files to output folder...
 Copied 500 files
 Copied 1000 files
 Copied 1017 files for the website content
-    Last step completed in 00:00:01.2075
+    Last step completed in 00:00:01.2563
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.2318
+    Not all build output was removed from &#39;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\&#39;: The process cannot access the file &#39;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\Output\Website\css&#39; because it is being used by another process.
+    Last step completed in 00:00:00.2162
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 09/04/2025 14:15:51.  Total time: 00:00:16.1706
+Build completed successfully at 09/10/2025 11:35:32.  Total time: 00:00:21.5976
 
 </buildStep>
 </shfbBuild>
