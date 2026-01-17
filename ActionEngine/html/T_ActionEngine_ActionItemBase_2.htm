@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html ><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" href="../css/bulma.css" /><link rel="stylesheet" href="../css/font-awesome.min.css" /><link rel="stylesheet" href="../css/presentationStyle.css" /><link rel="stylesheet" href="../css/vs.min.css" /><script src="../scripts/jquery-3.5.1.min.js"></script><script src="../scripts/clipboard.min.js"></script><script src="../scripts/highlight.min.js"></script><script src="../scripts/presentationStyle.js"></script><title>ActionItemBase&lt;TAction, TCollection&gt; Class</title><meta name="Title" content="ActionItemBase&lt;TAction, TCollection&gt;" /><meta name="Help.Id" content="T:ActionEngine.ActionItemBase`2" /><meta name="Help.ContentType" content="Reference" /><meta name="container" content="ActionEngine" /><meta name="guid" content="T_ActionEngine_ActionItemBase_2" /><meta name="Description" content="Information about an individual action that will be taken." /><meta name="tocFile" content="../toc/IDA.xml" /></head><body><div class="fixedLayout"><div id="Header" class="fixedHeader"><div class="pageHeader level mb-0 py-2 px-4"><div id="TitleContainer" class="level-left"><div id="DocumentationTitle" class="level-item">Dan's ActionEngine Library</div></div><div id="LangFilterSearchContainer" class="level-right"><div class="level-item"><div class="dropdown is-hoverable"><div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu"><span id="CurrentLanguage"></span><span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span></button></div><div class="dropdown-menu" role="menu"><div id="LanguageSelections" class="dropdown-content"><a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a><a class="dropdown-item languageFilterItem" data-languageId="vb">VB</a><a class="dropdown-item languageFilterItem" data-languageId="asp">ASP.NET</a></div></div></div></div><div class="level-item"><form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;"><div class="field"><div class="control has-icons-left"><input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" /><span class="icon is-small is-left"><i class="fa fa-search"></i></span><button id="SearchButton" type="submit" class="is-hidden"></button></div></div></form></div></div></div></div><div class="fixedContent"><nav class="breadcrumb my-1 px-2 border-bottom" role="navigation"><ul id="TopicBreadcrumbs" /></nav><div id="ContentContainer" class="columns pl-5 pr-5 fixedContent"><div id="ShowHideTOCColumn" class="column is-hidden-tablet"><a id="ShowHideTOC">Show/Hide TOC</a></div><div id="TOCColumn" class="column is-hidden-mobile"><nav class="toc"><ul id="TableOfContents" class="toc-menu" /></nav></div><div id="Resizer" class="is-hidden"></div><div id="TopicContent" class="column content is-7"><h1>Action<wbr />Item<wbr />Base<span id="LSTCE924B08_0" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="typeparameter">TAction</span>, <span class="typeparameter">TCollection</span><span id="LSTCE924B08_1" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span> Class</h1><div class="summary">
+            Information about an individual action that will be taken.
+            </div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Definition</h2><div id="IDBSection"><strong>Namespace:</strong> <a href="N_ActionEngine.htm">ActionEngine</a><br /><strong>Assembly:</strong> ActionEngine (in ActionEngine.dll) Version: 26.2117.4453<div class="codeSnippet" data-codeSnippetLanguage="cs"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class</span> <span class="identifier">ActionItemBase</span>&lt;TAction, TCollection&gt;
+<span class="keyword">where</span> TAction : <span class="identifier">ActionItemBase</span>&lt;TAction, TCollection&gt;
+<span class="keyword">where</span> TCollection : <span class="keyword">new</span>(), <span class="identifier">ActionCollectionBase</span>&lt;TAction, TCollection&gt;
+</code></pre></div></div><div class="codeSnippet is-hidden" data-codeSnippetLanguage="vb"><div class="codeHeader"><span class="codeHeaderTitle">VB</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-vb"><span class="keyword">Public</span> <span class="keyword">MustInherit</span> <span class="keyword">Class</span> <span class="identifier">ActionItemBase</span>(<span class="keyword">Of</span> TAction <span class="keyword">As</span> <span class="identifier">ActionItemBase</span>(<span class="keyword">Of</span> TAction, TCollection), TCollection <span class="keyword">As</span> {<span class="keyword">New</span>, <span class="identifier">ActionCollectionBase</span>(<span class="keyword">Of</span> TAction, TCollection)})</code></pre></div></div><div class="codeSnippet is-hidden" data-codeSnippetLanguage="asp"><div class="codeHeader"><span class="codeHeaderTitle">ASP.NET</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-plaintext">No code example is currently available or this language may not be supported.</code></pre></div></div><dl class="inheritanceHierarchy"><dt>Inheritance</dt><dd><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="selflink">ActionItemBase<span id="LSTCE924B08_2" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'"></span>TAction, TCollection<span id="LSTCE924B08_3" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;"></span></span></dd></dl><h4>Type Parameters</h4><dl><dt class="has-text-weight-normal"><span class="parameter">TAction</span></dt><dd>
+            The implemented type of action.
+            </dd><dt class="has-text-weight-normal"><span class="parameter">TCollection</span></dt><dd>
+            The implemented type of collection.
+            </dd></dl></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Constructors</h2><div id="IDAFASection"><table id="ConstructorList" class="table is-hoverable"><tr><td><a href="M_ActionEngine_ActionItemBase_2__ctor.htm">ActionItemBase<span id="LSTCE924B08_4" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'"></span>TAction, TCollection<span id="LSTCE924B08_5" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;"></span></a></td><td>
+            Create a new instance of the ActionItemBase Item.
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Properties</h2><div id="ID0KC0FASection"><table id="PropertyList" class="table is-hoverable"><tr><td><a href="P_ActionEngine_ActionItemBase_2_Action.htm">Action</a></td><td>
+            Get/Set the action associated with this entry.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Actions.htm">Actions</a></td><td>
+            Get a reference to the collection of child SVG actions.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Base.htm">Base</a></td><td>
+            Get/Set the base number or filename pattern of the source or target
+            files, depending upon the action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Condition.htm">Condition</a></td><td>
+            Get/Set the condition for flow control on this action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_ConfigFilename.htm">ConfigFilename</a></td><td>
+            Get/Set the path and filename of the configuration file for this
+            action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Count.htm">Count</a></td><td>
+            Get/Set the count associated with the current action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_CurrentFile.htm">CurrentFile</a></td><td>
+            Get/Set a reference to the current active file in-use.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_DataDir.htm">DataDir</a></td><td>
+            Get/Set the internal, calculated data directory.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_DataFilename.htm">DataFilename</a></td><td>
+            Get/Set the path and filename of the reference data file.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_DataFiles.htm">DataFiles</a></td><td>
+            Get a reference to the collection of file information used as reference
+            data in this session.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_DataNames.htm">DataNames</a></td><td>
+            Get a reference to the list of filenames or foldernames with
+            or without wildcards. This parameter can be specified multiple times
+            on the command line with different values to load multiple input files.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_DateTimeValue.htm">DateTimeValue</a></td><td>
+            Get/Set the date and time associated with the current action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_DefaultVariables.htm">DefaultVariables</a></td><td>
+            Get a reference to the collection of default variables assigned to this
+            action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Digits.htm">Digits</a></td><td>
+            Get/Set the number of digits associated with the current action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Images.htm">Images</a></td><td>
+            Get a reference to the collection of images in this session.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_InputDir.htm">InputDir</a></td><td>
+            Get/Set the internal, calculated input directory.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_InputFilename.htm">InputFilename</a></td><td>
+            Get/Set the input path and filename of the input file.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_InputFiles.htm">InputFiles</a></td><td>
+            Get a reference to the collection of file information used as input in
+            this session.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_InputFolderName.htm">InputFolderName</a></td><td>
+            Get/Set the path and folder name of the input for this action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_InputNames.htm">InputNames</a></td><td>
+            Get a reference to the list of filenames or foldernames with
+            or without wildcards. This parameter can be specified multiple times
+            on the command line with different values to load multiple input files.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Message.htm">Message</a></td><td>
+            Get/Set a message to be displayed when this action is run.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Options.htm">Options</a></td><td>
+            Get a reference to the collection of options assigned to this action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_OutputDir.htm">OutputDir</a></td><td>
+            Get/Set the internal, calculated output directory.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_OutputFile.htm">OutputFile</a></td><td>
+            Get/Set the internal, calculated output file.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_OutputFilename.htm">OutputFilename</a></td><td>
+            Get/Set the output path and filename for this action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_OutputFolderName.htm">OutputFolderName</a></td><td>
+            Get/Set the output path and folder name for this action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_OutputName.htm">OutputName</a></td><td>
+            Get/Set an output pattern that allows for filenames or foldernames
+            with or without wildcards. This parameter can be specified muliple
+            times on the command line with different values to write to multiple
+            output files.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Parent.htm">Parent</a></td><td>
+            Get/Set a reference to the parent of this item.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Pattern.htm">Pattern</a></td><td>
+            Get/Set a regular expression pattern for files, folders, or other
+            appropriate strings.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Properties.htm">Properties</a></td><td>
+            Get a reference to the collection of properties assigned to this
+            action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Range.htm">Range</a></td><td>
+            Get/Set a reference to the start and end values of the range.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_RecognizedActions.htm">RecognizedActions</a></td><td>
+            Get a reference to the collection of recognized actions in this
+            session.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Sequences.htm">Sequences</a></td><td>
+            Get a reference to the collection of sequences defined for this action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_SourceDir.htm">SourceDir</a></td><td>
+            Get/Set the internal, calculated source directory.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_SourceFolderName.htm">SourceFolderName</a></td><td>
+            Get/Set the path and folder name of the data source for this action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Stop.htm">Stop</a></td><td>
+            Get/Set a value indicating whether the process should be stopped.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Text.htm">Text</a></td><td>
+            Get/Set the text of the current action.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_VariableName.htm">VariableName</a></td><td>
+            Get/Set the name of the variable to access.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_Variables.htm">Variables</a></td><td>
+            Get a reference to the collection of variables on this instance.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_WorkingDocument.htm">WorkingDocument</a></td><td>
+            Get/Set the working key file for operations in this instance.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_WorkingDocumentIndex.htm">WorkingDocumentIndex</a></td><td>
+            Get/Set the input file index representing the working document.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_WorkingImage.htm">WorkingImage</a></td><td>
+            Get/Set a reference to the current working image in this session.
+            </td></tr><tr><td><a href="P_ActionEngine_ActionItemBase_2_WorkingPath.htm">WorkingPath</a></td><td>
+            Get/Set the working path for operations in this instance.
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Methods</h2><div id="IDBFASection"><table id="MethodList" class="table is-hoverable"><tr><td><a href="M_ActionEngine_ActionItemBase_2_CheckElements.htm">CheckElements</a></td><td>
+            Check all of the specified elements and return a value indicating
+            whether the masked items were all valid.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ClearDataFiles.htm">ClearDataFiles</a></td><td>
+            Clear the local DataFiles collection for the immediate parent item.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ClearInputFiles.htm">ClearInputFiles</a></td><td>
+            Clear the local InputFiles collection for the immediate parent item.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_DeserializeFile.htm">DeserializeFile</a></td><td>
+            Deserialize the contents of the supplied file.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_DrawImage.htm">DrawImage</a></td><td>
+            Draw the image specified by ImageName onto the working image at the
+            location specified by user properties Left and Top.
+            </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">Equals</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_FileOpenImage.htm">FileOpenImage</a></td><td>
+            Open the image specified in InputFilename.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_FileOverlayImage.htm">FileOverlayImage</a></td><td>
+            Open each image from the range and place the image specified in
+            InputFilename at the options specified by Left, Top, Width, and Height.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_FileSaveImage.htm">FileSaveImage</a></td><td>
+            Save the working image to the specified OutputFilename.
+            </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.finalize" target="_blank" rel="noopener noreferrer">Finalize</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ForEachFile.htm">ForEachFile</a></td><td>
+            Run the Actions collection of the presented object through all of the
+            files in this item's InputFiles collection using the CurrentFile
+            property for each one.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_GetActionName.htm">GetActionName</a></td><td>
+            Return the predefined version of the caller-supplied action name.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_GetCurrentFile.htm">GetCurrentFile</a></td><td>
+            Return the current file.
+            </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">GetHashCode</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_GetOptionByName.htm">GetOptionByName</a></td><td>
+            Return the option specified by name from this or a parent entity.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_GetPrecision.htm">GetPrecision</a></td><td>
+            Return the precision specified in the supplied item's Precision user
+            property.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_GetPropertyByName.htm">GetPropertyByName</a></td><td>
+            Return the user property specified by name from this or a parent
+            entity.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_GetSpecifiedOrWorking.htm">GetSpecifiedOrWorking</a></td><td>
+            Return a reference either to the document specified in the local file
+            arguments or the previously loaded working document.
+            </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_GetVariable.htm">GetVariable</a></td><td>
+            Get the value of the specified variable on the provided item instance.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_IdentifyDataFiles.htm">IdentifyDataFiles</a></td><td>
+            Identify the data files at the current level for the specified item.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_IdentifyInputFiles.htm">IdentifyInputFiles</a></td><td>
+            Identify the input and output files and directories at the current
+            level for the specified item.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_IdentifyOutputFiles.htm">IdentifyOutputFiles</a></td><td>
+            Identify the output files and directories at the current
+            level for the specified item.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_If.htm">If</a></td><td>
+            Run one or more sets of actions if their conditions are true.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ImageBackground.htm">ImageBackground</a></td><td>
+            Set the background color or image on the working image.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ImagesClear.htm">ImagesClear</a></td><td>
+            Clear the contents of the Images collection.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_InitializeDefaultVariables.htm">InitializeDefaultVariables</a></td><td>
+            Initialize the Variables property, in the specified item and all of
+            its descendants, from the values in the corresponding DefaultVariables
+            collections.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_InitializeExpressionValues.htm">InitializeExpressionValues</a></td><td>
+            Initialize specialized expression values from the implemented instance.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_InitializeFilenames.htm">InitializeFilenames</a></td><td>
+            Initialize values for working at this and child levels.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_InitializeParent.htm">InitializeParent</a></td><td>
+            Initialize the Parent property in all of the decendants of the
+            specified item.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_InitializeProperties.htm">InitializeProperties</a></td><td>
+            Initialize the public properties list of this class so they can be
+            used repeatedly with minimal overhead.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_InitializeVariable.htm">InitializeVariable</a></td><td>
+            Initialize and return the supplied variable under preparation.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_IsOutputLocal.htm">IsOutputLocal</a></td><td>
+            Return a value indicating whether the output filenames are local at
+            this level.
+            </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone" target="_blank" rel="noopener noreferrer">MemberwiseClone</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_NormalizeValue.htm">NormalizeValue</a></td><td>
+            Normalize the filename, using the values of any local properties
+            necessary.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_OpenWorkingDocument.htm">OpenWorkingDocument</a></td><td>
+            Open the working file to allow multiple operations to be completed
+            in the same session.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_Run.htm">Run</a></td><td>
+            Run the configured action.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_RunActions.htm">RunActions</a></td><td>
+            Run all of the unmuted actions in the collection.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_RunCustomAction.htm">RunCustomAction</a></td><td>
+            Run a custom defined action.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_RunSequence.htm">RunSequence</a></td><td>
+            Run the specified sequence.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_SaveWorkingDocument.htm">SaveWorkingDocument</a></td><td>
+            Save the working file to the specified output file.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_SetVariable.htm">SetVariable</a></td><td>
+            Set the value of the specified variable on the provided item instance.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_SetWorkingImage.htm">SetWorkingImage</a></td><td>
+            Set the working image to the one specified by the user property
+            ImageName.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeAction.htm">ShouldSerializeAction</a></td><td>
+            Return a value indicating whether the Action property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeActions.htm">ShouldSerializeActions</a></td><td>
+            Return a value indicating whether the Actions property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeBase.htm">ShouldSerializeBase</a></td><td>
+            Return a value indicating whether the Base property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeCondition.htm">ShouldSerializeCondition</a></td><td>
+            Return a value indicating whether the Condition property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeConfigFilename.htm">ShouldSerializeConfigFilename</a></td><td>
+            Return a value indicating whether the ConfigFilename property should
+            be serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeCount.htm">ShouldSerializeCount</a></td><td>
+            Return a value indicating whether the Count property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeDataFilename.htm">ShouldSerializeDataFilename</a></td><td>
+            Return a value indicating whether the DataFilename property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeDataNames.htm">ShouldSerializeDataNames</a></td><td>
+            Return a value indicating whether the DataNames property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeDateTimeValue.htm">ShouldSerializeDateTimeValue</a></td><td>
+            Return a value indicating whether the DateTimeValue property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeDigits.htm">ShouldSerializeDigits</a></td><td>
+            Return a value indicating whether the Digits property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeInputFilename.htm">ShouldSerializeInputFilename</a></td><td>
+            Return a value indicating whether the InputFilename property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeInputFolderName.htm">ShouldSerializeInputFolderName</a></td><td>
+            Return a value indicating whether the InputFolderName property should
+            be serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeInputNames.htm">ShouldSerializeInputNames</a></td><td>
+            Return a value indicating whether the InputNames property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeMessage.htm">ShouldSerializeMessage</a></td><td>
+            Return a value indicating whether the Message property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeOptions.htm">ShouldSerializeOptions</a></td><td>
+            Return a value indicating whether the Options property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeOutputFilename.htm">ShouldSerializeOutputFilename</a></td><td>
+            Return a value indicating whether the OutputFilename property should
+            be serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeOutputFolderName.htm">ShouldSerializeOutputFolderName</a></td><td>
+            Return a value indicating whether the OutputFolderName property should
+            be serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeOutputName.htm">ShouldSerializeOutputName</a></td><td>
+            Return a value indicating whether the OutputName property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializePattern.htm">ShouldSerializePattern</a></td><td>
+            Return a value indicating whether the Pattern property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeProperties.htm">ShouldSerializeProperties</a></td><td>
+            Return a value indicating whether the Properties property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeRange.htm">ShouldSerializeRange</a></td><td>
+            Return a value indicating whether the Range property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeSequences.htm">ShouldSerializeSequences</a></td><td>
+            Return a value indicating whether the Sequences property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeSourceFolderName.htm">ShouldSerializeSourceFolderName</a></td><td>
+            Return a value indicating whether the SourceFolderName property should
+            be serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeText.htm">ShouldSerializeText</a></td><td>
+            Return a value indicating whether the Text property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeVariableName.htm">ShouldSerializeVariableName</a></td><td>
+            Return a value indicating whether the VariableName property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeWorkingDocumentIndex.htm">ShouldSerializeWorkingDocumentIndex</a></td><td>
+            Return a value indicating whether the WorkingDocumentIndex property
+            should be serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_ShouldSerializeWorkingPath.htm">ShouldSerializeWorkingPath</a></td><td>
+            Return a value indicating whether the WorkingPath property should be
+            serialized.
+            </td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_SizeImage.htm">SizeImage</a></td><td>
+            Scale the working image to a new size to the dimensions found in the
+            Width and Height user properties.
+            </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">ToString</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="M_ActionEngine_ActionItemBase_2_WriteLocalOutput.htm">WriteLocalOutput</a></td><td>
+            Write the local output from the specified action.
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>See Also</h2><div id="seeAlsoSection"><h4>Reference</h4><div><a href="N_ActionEngine.htm">ActionEngine Namespace</a></div></div></div><div id="InThisArticleColumn" class="column is-hidden-mobile"><nav class="menu sticky is-hidden"><p class="menu-label"><strong>In This Article</strong></p><ul id="InThisArticleMenu" class="menu-list"><li><a class="quickLink">Definition</a></li><li><a class="quickLink">Constructors</a></li><li><a class="quickLink">Properties</a></li><li><a class="quickLink">Methods</a></li><li><a class="quickLink">See Also</a></li></ul></nav></div></div></div></div><script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+hljs.highlightAll();
+});</script></body></html>
