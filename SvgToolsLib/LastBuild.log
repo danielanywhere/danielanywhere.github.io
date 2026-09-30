@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Files\Dropbox\Develop\Shared\SvgTools\Scripts\SvgToolsDocumentation.shfbproj" started="12/19/2025 11:02:32">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Files\Dropbox\Develop\Shared\SvgTools\Scripts\SvgToolsDocumentation.shfbproj" started="09/30/2026 15:34:42">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -27,11 +27,11 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0061
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0312
+    Last step completed in 00:00:00.0067
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -45,10 +45,10 @@ Adding ignored assembly names to assembly resolver configuration:
     Html
     Newtonsoft.Json
     SkiaSharp
-</plugIn>[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-e51d8086-4e84-4cd9-81d2-18b423c07989.proj]
-Build started 12/19/2025 11:02:33.
+</plugIn>[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj]
+Build started 09/30/2026 15:34:44.
 
-Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-e51d8086-4e84-4cd9-81d2-18b423c07989.proj&quot; on node 1 (default targets).
+Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -56,42 +56,42 @@ GenerateRefInfo:
   c Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-MRefBuilder : warning : Ignoring unresolved assembly reference: Geometry (Geometry, Version=25.3011.3729.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-e51d8086-4e84-4cd9-81d2-18b423c07989.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: SkiaSharp (SkiaSharp, Version=3.119.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-e51d8086-4e84-4cd9-81d2-18b423c07989.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: Newtonsoft.Json (Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-e51d8086-4e84-4cd9-81d2-18b423c07989.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: Html (Html, Version=25.3112.4353.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-e51d8086-4e84-4cd9-81d2-18b423c07989.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: ConversionCalc (ConversionCalc, Version=25.3016.3818.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-e51d8086-4e84-4cd9-81d2-18b423c07989.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: Flee (Flee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-e51d8086-4e84-4cd9-81d2-18b423c07989.proj]
-  Wrote information on 2 namespaces, 75 types, and 703 members
+MRefBuilder : warning : Ignoring unresolved assembly reference: Geometry (Geometry, Version=25.3011.3729.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: SkiaSharp (SkiaSharp, Version=3.119.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Newtonsoft.Json (Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Html (Html, Version=25.3112.4353.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: ConversionCalc (ConversionCalc, Version=25.3016.3818.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Flee (Flee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj]
+  Wrote information on 2 namespaces, 113 types, and 884 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-e51d8086-4e84-4cd9-81d2-18b423c07989.proj&quot; (default targets).
-    Last step completed in 00:00:01.4375
+Done Building Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj&quot; (default targets).
+    Last step completed in 00:00:02.0146
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.3126
+    Last step completed in 00:00:00.6899
 </buildStep>
 <buildStep step="AddNamespaceGroups">
 Adding namespace group entries...
 Added 0 namespace group entries
-    Last step completed in 00:00:00.3437
+    Last step completed in 00:00:00.6339
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00.3594
+    Last step completed in 00:00:00.5911
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.2969
+    Last step completed in 00:00:00.5458
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0625
+    Last step completed in 00:00:00.0964
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
-C:\Files\Dropbox\Develop\Shared\SvgTools\Scripts\startup-redirect.js -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\Output\Website\startup-redirect.js
+No additional content to copy
     Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="MergeTablesOfContents">
@@ -101,22 +101,22 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.0938
+    Last step completed in 00:00:00.1650
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.1250
+    Last step completed in 00:00:00.1419
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0131
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0224
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -128,6 +128,8 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.BitmapInfoI
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:SvgToolsLib.ControlAreaItem] Unknown reference link target &#39;T:Geometry.FArea&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.ControlAreaItem.Node] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:SvgToolsLib.ControlReferenceItem] Unknown reference link target &#39;T:Geometry.FArea&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.CssKeyframeAnimationItem.#ctor(Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.CssKeyframeAnimationItem.Node] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.ImpliedFormDesign.AddUserStyle(Html.HtmlNodeCollection,System.String)] Unknown reference link target &#39;T:Html.HtmlNodeCollection&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.ImpliedFormDesign.FillForm(SvgToolsLib.ControlAreaCollection,Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.ImpliedFormDesign.GetFormCaption(Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
@@ -156,12 +158,45 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.ImpliedForm
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.ImpliedFormDesignAXaml.PerformLayout(SvgToolsLib.ControlAreaItem,Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.ImpliedFormDesignAXaml.RenderOutputNode(SvgToolsLib.ControlAreaItem,SvgToolsLib.RenderTokenItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.Matrix32.Transform(System.Single,System.Single)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.PlotPointsFItem.GetCoordinates(SvgToolsLib.PlotPointsFItem)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.PlotPointsFItem.SetCoordinates(SvgToolsLib.PlotPointsFItem,System.Collections.Generic.List{Geometry.FVector2})] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.PlotRay2.Direction] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.PlotRay2.Point] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.ShapeInfoCollection.CreateShapes(Html.HtmlNodeCollection)] Unknown reference link target &#39;T:Html.HtmlNodeCollection&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.ShapeInfoItem.CreateShapes(Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.ShapeInfoItem.Node] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.ShapeInfoItem.Points] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgDocumentItem.#ctor(Html.HtmlDocument)] Unknown reference link target &#39;T:Html.HtmlDocument&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.SvgDocumentItem.Document] Unknown reference link target &#39;T:Html.HtmlDocument&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.SvgPathActionItem.End] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.SvgPathActionItem.Start] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathArcActionCollection.GetCircle(SvgToolsLib.SvgPathArcActionCollection)] Unknown reference link target &#39;T:Geometry.FEllipse&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathArcActionCollection.GetEllipse(SvgToolsLib.SvgPathArcActionCollection)] Unknown reference link target &#39;T:Geometry.FEllipse&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathArcActionCollection.GetRefEllipse(SvgToolsLib.SvgPathArcActionItem)] Unknown reference link target &#39;T:Geometry.FEllipse&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathArcActionItem.FromPlotPoint(SvgToolsLib.PlotPointsFItem,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.SvgPathArcActionItem.Radius] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathCloseActionItem.FromPlotPoint(SvgToolsLib.PlotPointsFItem,Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathCloseActionItem.FromPlotPoint(SvgToolsLib.PlotPointsFItem,Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.SvgPathCubicBezierActionItem.Control1] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.SvgPathCubicBezierActionItem.Control2] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathCubicBezierActionItem.FromPlotPoint(SvgToolsLib.PlotPointsFItem,Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathCubicBezierActionItem.FromPlotPoint(SvgToolsLib.PlotPointsFItem,Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathHorizontalActionItem.FromPlotPoint(SvgToolsLib.PlotPointsFItem,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathLineActionItem.FromPlotPoint(SvgToolsLib.PlotPointsFItem,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathLineActionItem.FromVectors(Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathLineActionItem.FromVectors(Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathMoveActionItem.FromPlotPoint(SvgToolsLib.PlotPointsFItem,Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathMoveActionItem.FromPlotPoint(SvgToolsLib.PlotPointsFItem,Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.SvgPathQuadraticBezierActionItem.Control] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathQuadraticBezierActionItem.FromPlotPoint(SvgToolsLib.PlotPointsFItem,Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathQuadraticBezierActionItem.FromPlotPoint(SvgToolsLib.PlotPointsFItem,Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPathVerticalActionItem.FromPlotPoint(SvgToolsLib.PlotPointsFItem,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.SvgPlasmaPlotter.Cursor] Unknown reference link target &#39;T:Geometry.FVector3&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPlotLineCollection.GetBoundingBox(SvgToolsLib.SvgPlotLineCollection)] Unknown reference link target &#39;T:Geometry.FArea&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPlotLineCollection.GetCenter(SvgToolsLib.SvgPlotLineCollection)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgPlotLineCollection.GetWindingDirection(SvgToolsLib.SvgPlotLineCollection,System.Boolean)] Unknown reference link target &#39;T:Geometry.WindingOrientationEnum&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.SvgPlotLineItem.End] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.SvgPlotLineItem.Start] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgTimelineAnimation.GenerateAnimationCss(Html.HtmlDocument,System.Data.DataSet,System.String)] Unknown reference link target &#39;T:Html.HtmlDocument&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgTimelineNodeItem.#ctor(Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:SvgToolsLib.SvgTimelineNodeItem.Node] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
@@ -193,6 +228,10 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUti
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.GetArea(Geometry.FArea)] Unknown reference link target &#39;T:Geometry.FArea&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.GetAttributeValue(Html.HtmlNodeItem,System.String)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.GetAttributeValueInherited(Html.HtmlNodeItem,System.String)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.GetEllipticalArcAngles(Geometry.FEllipse,Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FEllipse&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.GetEllipticalArcAngles(Geometry.FEllipse,Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.GetEllipticalArcAngles(Geometry.FEllipse,Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.GetEllipticalArcAngles(Geometry.FEllipse,Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.GetExtent(Html.HtmlNodeItem,System.String)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.GetExtent(Html.HtmlNodeItem,System.String)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.GetHeight(Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
@@ -211,22 +250,30 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUti
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.InitializeCompatibleSvgStructure(Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.IsAncestorOf(Html.HtmlNodeItem,Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.IsAncestorOf(Html.HtmlNodeItem,Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.IsDifferent(Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.IsDifferent(Geometry.FVector2,Geometry.FVector2)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.ParsePolygonPoints(System.String)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.PurgeDefs(Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.RotatePoint(System.Single,System.Single,System.Single,System.Single,System.Single)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.RoundAllValues(Html.HtmlNodeItem,System.Int32)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.SaveBitmap(SkiaSharp.SKBitmap,System.String)] Unknown reference link target &#39;T:SkiaSharp.SKBitmap&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.ScaleStyle(Html.HtmlNodeCollection,System.String,System.Single)] Unknown reference link target &#39;T:Html.HtmlNodeCollection&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.ScaleStyle(Html.HtmlNodeItem,System.String,System.Single)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.TransformBounds(Html.HtmlNodeItem,SvgToolsLib.BoundingObjectItem,System.String)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.TryGetArcCenter(Geometry.FVector2,Geometry.FVector2,Geometry.FVector2,System.Boolean,System.Boolean,Geometry.FVector2@)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.TryGetArcCenter(Geometry.FVector2,Geometry.FVector2,Geometry.FVector2,System.Boolean,System.Boolean,Geometry.FVector2@)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.TryGetArcCenter(Geometry.FVector2,Geometry.FVector2,Geometry.FVector2,System.Boolean,System.Boolean,Geometry.FVector2@)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.SvgToolsUtil.TryGetArcCenter(Geometry.FVector2,Geometry.FVector2,Geometry.FVector2,System.Boolean,System.Boolean,Geometry.FVector2@)] Unknown reference link target &#39;T:Geometry.FVector2&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.TextFormatTokenItem.GetActiveTextFormat(Html.HtmlNodeItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:SvgToolsLib.TextFormatTokenItem.GetActiveTextFormat(Html.HtmlNodeItem,SvgToolsLib.TextFormatTokenItem)] Unknown reference link target &#39;T:Html.HtmlNodeItem&#39;.
-Processed 784 topic(s)
-96 warning(s)
+Processed 1045 topic(s)
+142 warning(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 9 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+SaveComponent: Waiting for the document writer task to finish (3 Website API file(s) remaining)...
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:04.8906
+</plugIn>    Last step completed in 00:00:08.7511
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -262,28 +309,28 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.0625
+    Last step completed in 00:00:00.0584
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.5781
+    Last step completed in 00:00:01.1948
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 500 files
 Copied 1000 files
-Copied 1016 files for the website content
-    Last step completed in 00:00:01.0156
+Copied 1352 files for the website content
+    Last step completed in 00:00:02.1507
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.1875
+    Last step completed in 00:00:00.4149
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 12/19/2025 11:02:42.  Total time: 00:00:10.7500
+Build completed successfully at 09/30/2026 15:35:01.  Total time: 00:00:18.5872
 
 </buildStep>
 </shfbBuild>
