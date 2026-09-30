@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Files\Dropbox\Develop\Shared\SvgTools\Scripts\SvgToolsDocumentation.shfbproj" started="09/30/2026 15:34:42">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Files\Dropbox\Develop\Shared\SvgTools\Scripts\SvgToolsDocumentation.shfbproj" started="09/30/2026 15:45:38">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -27,11 +27,11 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0061
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0067
+    Last step completed in 00:00:00.0193
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -45,10 +45,10 @@ Adding ignored assembly names to assembly resolver configuration:
     Html
     Newtonsoft.Json
     SkiaSharp
-</plugIn>[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj]
-Build started 09/30/2026 15:34:44.
+</plugIn>[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-de84426f-b344-4b60-be31-81f2278e8856.proj]
+Build started 09/30/2026 15:45:39.
 
-Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj&quot; on node 1 (default targets).
+Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-de84426f-b344-4b60-be31-81f2278e8856.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -56,43 +56,43 @@ GenerateRefInfo:
   c Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-MRefBuilder : warning : Ignoring unresolved assembly reference: Geometry (Geometry, Version=25.3011.3729.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: SkiaSharp (SkiaSharp, Version=3.119.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: Newtonsoft.Json (Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: Html (Html, Version=25.3112.4353.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: ConversionCalc (ConversionCalc, Version=25.3016.3818.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: Flee (Flee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Geometry (Geometry, Version=25.3011.3729.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-de84426f-b344-4b60-be31-81f2278e8856.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: SkiaSharp (SkiaSharp, Version=3.119.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-de84426f-b344-4b60-be31-81f2278e8856.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Newtonsoft.Json (Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-de84426f-b344-4b60-be31-81f2278e8856.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Html (Html, Version=25.3112.4353.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-de84426f-b344-4b60-be31-81f2278e8856.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: ConversionCalc (ConversionCalc, Version=25.3016.3818.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-de84426f-b344-4b60-be31-81f2278e8856.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Flee (Flee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) required by SvgToolsLib [C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-de84426f-b344-4b60-be31-81f2278e8856.proj]
   Wrote information on 2 namespaces, 113 types, and 884 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-cc18fce5-df2b-40ba-9172-c5eab904c81b.proj&quot; (default targets).
-    Last step completed in 00:00:02.0146
+Done Building Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\GenerateRefInfo-de84426f-b344-4b60-be31-81f2278e8856.proj&quot; (default targets).
+    Last step completed in 00:00:02.0302
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.6899
+    Last step completed in 00:00:00.6087
 </buildStep>
 <buildStep step="AddNamespaceGroups">
 Adding namespace group entries...
 Added 0 namespace group entries
-    Last step completed in 00:00:00.6339
+    Last step completed in 00:00:00.6304
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00.5911
+    Last step completed in 00:00:00.6431
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.5458
+    Last step completed in 00:00:00.5472
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0964
+    Last step completed in 00:00:00.1014
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0026
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -101,22 +101,22 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.1650
+    Last step completed in 00:00:00.1035
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.1419
+    Last step completed in 00:00:00.1411
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0131
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0224
+    Last step completed in 00:00:00.0306
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -270,10 +270,10 @@ Processed 1045 topic(s)
 142 warning(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 9 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
-SaveComponent: Waiting for the document writer task to finish (3 Website API file(s) remaining)...
+SaveComponent: Waiting for the document writer task to finish (9 Website API file(s) remaining)...
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:08.7511
+</plugIn>    Last step completed in 00:00:09.9215
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -309,12 +309,12 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\SvgToolsLib\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.0584
+    Last step completed in 00:00:00.0686
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:01.1948
+    Last step completed in 00:00:01.4766
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -322,15 +322,15 @@ Copying website files to output folder...
 Copied 500 files
 Copied 1000 files
 Copied 1352 files for the website content
-    Last step completed in 00:00:02.1507
+    Last step completed in 00:00:01.9290
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.4149
+    Last step completed in 00:00:00.3450
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 09/30/2026 15:35:01.  Total time: 00:00:18.5872
+Build completed successfully at 09/30/2026 15:45:57.  Total time: 00:00:19.6720
 
 </buildStep>
 </shfbBuild>
