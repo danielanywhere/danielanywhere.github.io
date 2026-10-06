@@ -41,6 +41,9 @@
             Clear the contents of the specified string builder.
             </td></tr><tr><td><a href="250c7820-3a10-e985-3164-54bb3ec1dcfb.htm">ConvertElementsToLower</a></td><td>
             Convert all HTML tags and property names to lower case.
+            </td></tr><tr><td><a href="b4055498-a9bf-f6de-31c3-9bdcaf45b241.htm">ConvertObjectsToPaths</a></td><td>
+            Convert the primitive shape objects in the document to fully-qualified
+            &lt;path&gt; elements.
             </td></tr><tr><td><a href="e30fda36-99a3-a7d5-df7e-542689d02ac8.htm">CopyFields<span id="LST1B251914_2" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>T<span id="LST1B251914_3" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span></a></td><td>
             Copy the private fields of public properties from the source to target.
             </td></tr><tr><td><a href="6e8bc8c8-07e7-f8fb-8690-b413da9c55c5.htm">DegToRad</a></td><td>
@@ -69,7 +72,9 @@
             </td></tr><tr><td><a href="dd6b0b28-067c-91e4-8945-400759db4e4d.htm">EstimateTextWidth</a></td><td>
             Return the estimated width of the presented text for the specified
             font size.
-            </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.finalize" target="_blank" rel="noopener noreferrer">Finalize</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="a679b659-11fe-4341-4b1a-b95fd6010e76.htm">GetActiveAttribute</a></td><td>
+            </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.finalize" target="_blank" rel="noopener noreferrer">Finalize</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="54b25946-f76b-2ab9-16b3-be1eff338aa5.htm">FormatValue</a></td><td>
+            Return the formatted string representation of the caller's value.
+            </td></tr><tr><td><a href="a679b659-11fe-4341-4b1a-b95fd6010e76.htm">GetActiveAttribute</a></td><td>
             Return the active attribute for the specified attribute name, beginning
             at the provided node and working backward in the ancestor chain until
             it is found.
@@ -133,6 +138,8 @@
             </td></tr><tr><td><a href="9a058ce7-6ba0-42e2-6978-e71675949497.htm">GetValue(SvgActionItem, String)</a></td><td>
             Return the string value of the specified property within the caller's
             File Action.
+            </td></tr><tr><td><a href="f0cf857b-1c92-51ae-1943-d8f24486d8a0.htm">GetValue(MatchCollection, Int32, String)</a></td><td>
+            Return the value of the specified group member in the provided match.
             </td></tr><tr><td><a href="9a02a1e8-edda-e4dd-1041-9e12aa04002e.htm">GetValue(String, String, String)</a></td><td>
             Return the value of the specified group member in a match found with
             the provided source and pattern.
@@ -197,6 +204,8 @@
             </td></tr><tr><td><a href="82eadc94-8f0a-854a-a2b7-2f68d8070a6f.htm">ResolveFilename</a></td><td>
             Resolve the supplied path and filename to return all files that match
             that name, including wildcards.
+            </td></tr><tr><td><a href="4f5fd417-38bd-a5f4-ea9a-90db8ed763b8.htm">ResolveObjectReferences</a></td><td>
+            Resolve linked copies of objects, deep cloning all instances.
             </td></tr><tr><td><a href="479a1ae2-14fd-d489-3758-eaac39684115.htm">ResolveWildcards</a></td><td>
             Resolve any wildcards in the caller's working path and filename.
             </td></tr><tr><td><a href="ef0ea4ab-68f4-c1c4-f02b-2a90598e4583.htm">Right</a></td><td>
@@ -245,6 +254,20 @@
             Provide fail-safe conversion of string to numeric value.
             </td></tr><tr><td><a href="cda52bac-3065-3404-eda9-a86a08a8f913.htm">ToInt(String)</a></td><td>
             Provide fail-safe conversion of string to numeric value.
+            </td></tr><tr><td><a href="34726a92-72c6-0cd3-2466-024d327768b9.htm">ToPathFromCircle</a></td><td>
+            Return path data representing the caller's circle values.
+            </td></tr><tr><td><a href="e299a9bf-242b-261e-5023-b5cf341cd107.htm">ToPathFromEllipse</a></td><td>
+            Return path data representing the caller's ellipse values.
+            </td></tr><tr><td><a href="624ecf82-0c8a-fb98-6986-90a45142bc15.htm">ToPathFromLine</a></td><td>
+            Return path data representing the caller's line.
+            </td></tr><tr><td><a href="25bf617b-3244-d986-ab51-c77100361818.htm">ToPathFromPointData</a></td><td>
+            Return path data representing the caller's series of points.
+            </td></tr><tr><td><a href="8eee422e-3936-902a-eaca-f9df8299d7c4.htm">ToPathFromPolygon</a></td><td>
+            Return path data representing the caller's polygon.
+            </td></tr><tr><td><a href="9f10a247-a0e3-d29c-a4a5-5c9a52a65966.htm">ToPathFromPolyline</a></td><td>
+            Return path data representing the caller's polyline.
+            </td></tr><tr><td><a href="e3ece94b-d82a-d8c6-bd92-a3332203380e.htm">ToPathFromRect</a></td><td>
+            Return path data representing the caller's rectangle.
             </td></tr><tr><td><a href="0a64be5a-6f07-78e6-34d1-84407ee8faf0.htm">ToPixels</a></td><td>
             Return the pixel representation of the specified measurement.
             </td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">ToString</a></td><td><br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr><tr><td><a href="87fbc804-8f87-9299-7e53-36d0bc406f17.htm">ToStringFromHtml</a></td><td>
