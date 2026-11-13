@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Files\Dropbox\Develop\Shared\Html\Scripts\HtmlDocumentation.shfbproj" started="10/06/2026 07:06:03">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.21.0" projectFile="C:\Files\Dropbox\Develop\Shared\Html\Scripts\HtmlDocumentation.shfbproj" started="11/13/2026 11:14:05">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -25,18 +25,18 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0029
+    Last step completed in 00:00:00.0056
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0165
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-ce337a99-814f-4877-a519-c008e9ee9e7f.proj]
-Build started 10/06/2026 07:06:04.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-c040de44-5961-44e0-ae28-ce681d355010.proj]
+Build started 11/13/2026 11:14:09.
 
-Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\GenerateRefInfo-ce337a99-814f-4877-a519-c008e9ee9e7f.proj&quot; on node 1 (default targets).
+Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\GenerateRefInfo-c040de44-5961-44e0-ae28-ce681d355010.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -47,12 +47,12 @@ GenerateRefInfo:
   Wrote information on 2 namespaces, 52 types, and 758 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\GenerateRefInfo-ce337a99-814f-4877-a519-c008e9ee9e7f.proj&quot; (default targets).
-    Last step completed in 00:00:00.9395
+Done Building Project &quot;C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\GenerateRefInfo-c040de44-5961-44e0-ae28-ce681d355010.proj&quot; (default targets).
+    Last step completed in 00:00:01.0049
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.6016
+    Last step completed in 00:00:00.3953
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
@@ -186,20 +186,20 @@ Adding topic filenames to API members...
     Unique name M_Html_NameIDCollection_Add_2 generated for M:Html.NameIDCollection.Add(System.String,System.Int32,System.Object)
     Unique name M_Html_NameIDCollection_Dispose_1 generated for M:Html.NameIDCollection.Dispose(System.Boolean)
     Unique name M_Html_ObjectCollection_op_Implicit_1 generated for M:Html.ObjectCollection.op_Implicit(Html.ObjectCollection)~System.Object[]
-    Last step completed in 00:00:00.7357
+    Last step completed in 00:00:00.6490
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.6540
+    Last step completed in 00:00:00.5210
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0665
+    Last step completed in 00:00:00.0652
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0012
+    Last step completed in 00:00:00.0034
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -208,22 +208,22 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.0945
+    Last step completed in 00:00:00.0779
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.1430
+    Last step completed in 00:00:00.2588
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0122
+    Last step completed in 00:00:00.0118
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0246
+    Last step completed in 00:00:00.0268
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -234,10 +234,10 @@ Processing topics...
 Processed 787 topic(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
-SaveComponent: Waiting for the document writer task to finish (7 Website API file(s) remaining)...
+SaveComponent: Waiting for the document writer task to finish (44 Website API file(s) remaining)...
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:08.7934
+</plugIn>    Last step completed in 00:00:08.3977
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -273,12 +273,12 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Files\Dropbox\Develop\Shared\danielanywhere.github.io\Html\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.0897
+    Last step completed in 00:00:00.4453
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:01.0257
+    Last step completed in 00:00:00.8854
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -286,15 +286,15 @@ Copying website files to output folder...
 Copied 500 files
 Copied 1000 files
 Copied 1043 files for the website content
-    Last step completed in 00:00:01.5605
+    Last step completed in 00:00:01.3977
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.2952
+    Last step completed in 00:00:00.2673
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 10/06/2026 07:06:19.  Total time: 00:00:16.1838
+Build completed successfully at 11/13/2026 11:14:24.  Total time: 00:00:19.0000
 
 </buildStep>
 </shfbBuild>
